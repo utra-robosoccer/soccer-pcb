@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,8.6.3*%
+%TF.CreationDate,2018-02-25T02:16:23Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Shahryar Rajabzadeh <s.rajabzadeh@mail.utoronto.ca>*%
+%TJ.B_ID,STM32F446RE_subcircuit*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,88.570000*%
+%TJ.B_Size_Y,55.870000*%
+M02*

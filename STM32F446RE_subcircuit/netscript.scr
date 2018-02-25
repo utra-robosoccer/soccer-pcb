@@ -1,0 +1,293 @@
+# NetScript
+# 
+# Exported from STM32F446RE_subcircuit.sch at 2018-02-23 7:33 PM
+# 
+# EAGLE Version 8.6.3 Copyright (c) 1988-2018 Autodesk, Inc.
+# 
+Change Class 0;
+Signal '5V'       'C2'       '2' \
+                  'IC1'      '14' \
+                  'IC2'      '3' \
+                  'IC3'      '14' \
+                  'IC4'      '14' \
+                  'IC5'      '14' \
+                  'LM7805'   'OUT' \
+                  ;
+Change Class 0;
+Signal '12V'      'C1'       '2' \
+                  'JP1'      '2' \
+                  'JP2'      '2' \
+                  'JP3'      '2' \
+                  'JP4'      '2' \
+                  'JP6'      '2' \
+                  'LM7805'   'IN' \
+                  'X1'       '1' \
+                  ;
+Change Class 0;
+Signal 'AVDD'     'BEAD1'    '2' \
+                  'C30'      '1' \
+                  'U1'       '13' \
+                  ;
+Change Class 0;
+Signal 'BOOT0'    'BOOT0'    '1' \
+                  'R1'       'P$1' \
+                  'U1'       '60' \
+                  ;
+Change Class 0;
+Signal 'GND'      'B1'       '1' \
+                  'BEAD2'    '2' \
+                  'C2'       '1' \
+                  'C23'      '2' \
+                  'C24'      '2' \
+                  'C26'      '2' \
+                  'C27'      '2' \
+                  'C28'      '2' \
+                  'C29'      '1' \
+                  'C3'       '2' \
+                  'C30'      '2' \
+                  'C31'      '1' \
+                  'C32'      '1' \
+                  'C33'      '1' \
+                  'C34'      '1' \
+                  'CN4'      '3' \
+                  'D1'       'K' \
+                  'D2'       'K' \
+                  'I2C_MCU'  '4' \
+                  'IC1'      '7' \
+                  'IC2'      '1' \
+                  'IC3'      '7' \
+                  'IC4'      '7' \
+                  'IC5'      '7' \
+                  'LM7805'   'GND' \
+                  'PC'       '3' \
+                  'R1'       'P$2' \
+                  'U1'       '12' \
+                  'U1'       '18' \
+                  'U1'       '31' \
+                  'U1'       '47' \
+                  'U1'       '63' \
+                  ;
+Change Class 0;
+Signal 'I2C1_SCL' 'I2C_MCU'  '2' \
+                  'U1'       '58' \
+                  ;
+Change Class 0;
+Signal 'I2C1_SDA' 'I2C_MCU'  '3' \
+                  'U1'       '59' \
+                  ;
+Change Class 0;
+Signal 'INT'      'I2C_MCU'  '1' \
+                  'U1'       '57' \
+                  ;
+Change Class 0;
+Signal 'MGND'     'BEAD2'    '1' \
+                  'C1'       '1' \
+                  'JP1'      '1' \
+                  'JP2'      '1' \
+                  'JP3'      '1' \
+                  'JP4'      '1' \
+                  'JP6'      '1' \
+                  'X1'       '2' \
+                  ;
+Change Class 0;
+Signal 'N$1'      'R35'      'P$2' \
+                  'U1'       '5' \
+                  ;
+Change Class 0;
+Signal 'N$2'      'R37'      'P$2' \
+                  'U1'       '6' \
+                  ;
+Change Class 0;
+Signal 'N$3'      'IC1'      '1' \
+                  'IC4'      '2' \
+                  ;
+Change Class 0;
+Signal 'N$4'      'C34'      '2' \
+                  'R37'      'P$1' \
+                  'X3'       '1' \
+                  ;
+Change Class 0;
+Signal 'N$5'      'C33'      '2' \
+                  'R35'      'P$1' \
+                  'X3'       '2' \
+                  ;
+Change Class 0;
+Signal 'N$6'      'IC1'      '10' \
+                  'IC4'      '6' \
+                  ;
+Change Class 0;
+Signal 'N$7'      'D2'       'A' \
+                  'R2'       'P$2' \
+                  ;
+Change Class 0;
+Signal 'N$8'      'C31'      '2' \
+                  'U1'       '3' \
+                  'X2'       '2' \
+                  ;
+Change Class 0;
+Signal 'N$9'      'C32'      '2' \
+                  'U1'       '4' \
+                  'X2'       '1' \
+                  ;
+Change Class 0;
+Signal 'N$10'     'R3'       'P$2' \
+                  'U1'       '40' \
+                  ;
+Change Class 0;
+Signal 'N$11'     'IC3'      '13' \
+                  'IC4'      '10' \
+                  ;
+Change Class 0;
+Signal 'N$12'     'D1'       'A' \
+                  'R3'       'P$1' \
+                  ;
+Change Class 0;
+Signal 'N$17'     'IC3'      '10' \
+                  'IC4'      '8' \
+                  ;
+Change Class 0;
+Signal 'N$18'     'IC4'      '12' \
+                  'IC5'      '13' \
+                  ;
+Change Class 0;
+Signal 'N$20'     'IC5'      '12' \
+                  'IC5'      '3' \
+                  'JP1'      '3' \
+                  ;
+Change Class 0;
+Signal 'NRST'     'B1'       '3' \
+                  'C3'       '1' \
+                  'CN4'      '5' \
+                  'U1'       '7' \
+                  ;
+Change Class 0;
+Signal 'OUT1'     'IC1'      '11' \
+                  'IC1'      '2' \
+                  'JP6'      '3' \
+                  ;
+Change Class 0;
+Signal 'OUT2'     'IC3'      '12' \
+                  'IC3'      '3' \
+                  'JP4'      '3' \
+                  ;
+Change Class 0;
+Signal 'OUT3'     'IC1'      '6' \
+                  'IC1'      '9' \
+                  'JP3'      '3' \
+                  ;
+Change Class 0;
+Signal 'OUT4'     'IC3'      '6' \
+                  'IC3'      '9' \
+                  'JP2'      '3' \
+                  ;
+Change Class 0;
+Signal 'SWO'      'CN4'      '6' \
+                  'U1'       '55' \
+                  ;
+Change Class 0;
+Signal 'TCK'      'CN4'      '2' \
+                  'U1'       '49' \
+                  ;
+Change Class 0;
+Signal 'TMS'      'CN4'      '4' \
+                  'U1'       '46' \
+                  ;
+Change Class 0;
+Signal 'U1_DIR'   'IC4'      '13' \
+                  'IC5'      '1' \
+                  'U1'       '41' \
+                  ;
+Change Class 0;
+Signal 'U2_DIR'   'IC3'      '4' \
+                  'IC4'      '9' \
+                  'U1'       '20' \
+                  ;
+Change Class 0;
+Signal 'U3_DIR'   'IC1'      '4' \
+                  'IC4'      '5' \
+                  'U1'       '28' \
+                  ;
+Change Class 0;
+Signal 'U4_DIR'   'IC3'      '1' \
+                  'IC4'      '11' \
+                  'U1'       '11' \
+                  ;
+Change Class 0;
+Signal 'U6_DIR'   'IC1'      '13' \
+                  'IC4'      '1' \
+                  'U1'       '36' \
+                  ;
+Change Class 0;
+Signal 'UART4_RX' 'IC3'      '11' \
+                  'U1'       '15' \
+                  ;
+Change Class 0;
+Signal 'UART4_TX' 'IC3'      '2' \
+                  'U1'       '14' \
+                  ;
+Change Class 0;
+Signal 'USART1_RX' 'IC5'      '11' \
+                  'U1'       '43' \
+                  ;
+Change Class 0;
+Signal 'USART1_TX' 'IC5'      '2' \
+                  'U1'       '42' \
+                  ;
+Change Class 0;
+Signal 'USART2_RX' 'IC3'      '8' \
+                  'U1'       '17' \
+                  ;
+Change Class 0;
+Signal 'USART2_TX' 'IC3'      '5' \
+                  'U1'       '16' \
+                  ;
+Change Class 0;
+Signal 'USART3_RX' 'IC1'      '8' \
+                  'U1'       '25' \
+                  ;
+Change Class 0;
+Signal 'USART3_TX' 'IC1'      '5' \
+                  'U1'       '29' \
+                  ;
+Change Class 0;
+Signal 'USART5_RX' 'PC'       '2' \
+                  'U1'       '54' \
+                  ;
+Change Class 0;
+Signal 'USART5_TX' 'PC'       '1' \
+                  'U1'       '53' \
+                  ;
+Change Class 0;
+Signal 'USART6_RX' 'IC1'      '3' \
+                  'U1'       '38' \
+                  ;
+Change Class 0;
+Signal 'USART6_TX' 'IC1'      '12' \
+                  'U1'       '37' \
+                  ;
+Change Class 0;
+Signal 'VBAT'     'C29'      '2' \
+                  'SB45'     '1' \
+                  'U1'       '1' \
+                  ;
+Change Class 0;
+Signal 'VCAP_1'   'C26'      '1' \
+                  'U1'       '30' \
+                  ;
+Change Class 0;
+Signal 'VDD'      'BEAD1'    '1' \
+                  'BOOT0'    '2' \
+                  'C23'      '1' \
+                  'C24'      '1' \
+                  'C27'      '1' \
+                  'C28'      '1' \
+                  'CN4'      '1' \
+                  'I2C_MCU'  '5' \
+                  'IC2'      '4' \
+                  'R2'       'P$1' \
+                  'SB45'     '2' \
+                  'U1'       '19' \
+                  'U1'       '32' \
+                  'U1'       '48' \
+                  'U1'       '64' \
+                  ;

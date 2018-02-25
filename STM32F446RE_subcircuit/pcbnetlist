@@ -1,0 +1,243 @@
+Netlist
+
+Exported from STM32F446RE_subcircuit.brd at 2018-02-23 7:48 PM
+
+EAGLE Version 8.6.3 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Net       Part     Pad
+
+5V        C2       2
+          IC1      14
+          IC2      3
+          IC3      14
+          IC4      14
+          IC5      14
+          LM7805   OUT
+
+12V       C1       2
+          JP1      2
+          JP2      2
+          JP3      2
+          JP4      2
+          JP6      2
+          LM7805   IN
+          X1       1
+
+AVDD      BEAD1    2
+          C30      1
+          U1       13
+
+BOOT0     BOOT0    1
+          R1       P$1
+          U1       60
+
+GND       B1       1
+          BEAD2    2
+          C2       1
+          C23      2
+          C24      2
+          C26      2
+          C27      2
+          C28      2
+          C29      1
+          C3       2
+          C30      2
+          C31      1
+          C32      1
+          C33      1
+          C34      1
+          CN4      3
+          D1       K
+          D2       K
+          I2C_MCU  4
+          IC1      7
+          IC2      1
+          IC3      7
+          IC4      7
+          IC5      7
+          LM7805   GND
+          PC       3
+          R1       P$2
+          U1       12
+          U1       18
+          U1       31
+          U1       47
+          U1       63
+
+I2C1_SCL  I2C_MCU  2
+          U1       58
+
+I2C1_SDA  I2C_MCU  3
+          U1       59
+
+INT       I2C_MCU  1
+          U1       57
+
+MGND      BEAD2    1
+          C1       1
+          JP1      1
+          JP2      1
+          JP3      1
+          JP4      1
+          JP6      1
+          X1       2
+
+N$1       R35      P$2
+          U1       5
+
+N$2       R37      P$2
+          U1       6
+
+N$3       IC1      1
+          IC4      2
+
+N$4       C34      2
+          R37      P$1
+          X3       1
+
+N$5       C33      2
+          R35      P$1
+          X3       2
+
+N$6       IC1      10
+          IC4      6
+
+N$7       D2       A
+          R2       P$2
+
+N$8       C31      2
+          U1       3
+          X2       2
+
+N$9       C32      2
+          U1       4
+          X2       1
+
+N$10      R3       P$2
+          U1       40
+
+N$11      IC3      13
+          IC4      10
+
+N$12      D1       A
+          R3       P$1
+
+N$17      IC3      10
+          IC4      8
+
+N$18      IC4      12
+          IC5      13
+
+N$20      IC5      12
+          IC5      3
+          JP1      3
+
+NRST      B1       3
+          C3       1
+          CN4      5
+          U1       7
+
+OUT1      IC1      11
+          IC1      2
+          JP6      3
+
+OUT2      IC3      12
+          IC3      3
+          JP4      3
+
+OUT3      IC1      6
+          IC1      9
+          JP3      3
+
+OUT4      IC3      6
+          IC3      9
+          JP2      3
+
+SWO       CN4      6
+          U1       55
+
+TCK       CN4      2
+          U1       49
+
+TMS       CN4      4
+          U1       46
+
+U1_DIR    IC4      13
+          IC5      1
+          U1       41
+
+U2_DIR    IC3      4
+          IC4      9
+          U1       20
+
+U3_DIR    IC1      4
+          IC4      5
+          U1       28
+
+U4_DIR    IC3      1
+          IC4      11
+          U1       11
+
+U6_DIR    IC1      13
+          IC4      1
+          U1       36
+
+UART4_RX  IC3      11
+          U1       15
+
+UART4_TX  IC3      2
+          U1       14
+
+USART1_RX IC5      11
+          U1       43
+
+USART1_TX IC5      2
+          U1       42
+
+USART2_RX IC3      8
+          U1       17
+
+USART2_TX IC3      5
+          U1       16
+
+USART3_RX IC1      8
+          U1       25
+
+USART3_TX IC1      5
+          U1       29
+
+USART5_RX PC       2
+          U1       54
+
+USART5_TX PC       1
+          U1       53
+
+USART6_RX IC1      3
+          U1       38
+
+USART6_TX IC1      12
+          U1       37
+
+VBAT      C29      2
+          SB45     1
+          U1       1
+
+VCAP_1    C26      1
+          U1       30
+
+VDD       BEAD1    1
+          BOOT0    2
+          C23      1
+          C24      1
+          C27      1
+          C28      1
+          CN4      1
+          I2C_MCU  5
+          IC2      4
+          R2       P$1
+          SB45     2
+          U1       19
+          U1       32
+          U1       48
+          U1       64
+
