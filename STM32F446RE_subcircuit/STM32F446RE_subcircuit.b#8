@@ -1328,9 +1328,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0.1778" drill="0.1778">
 <clearance class="0" value="0.1778"/>
 </class>
-<class number="1" name="servo" width="0.254" drill="0.254">
-<clearance class="1" value="0.254"/>
-</class>
 </classes>
 <designrules name="default *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
