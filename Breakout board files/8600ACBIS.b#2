@@ -62,32 +62,43 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="20.2" y2="0" width="0" layer="20"/>
-<wire x1="20.2" y1="0" x2="20.2" y2="15.12" width="0" layer="20"/>
-<wire x1="20.2" y1="15.12" x2="0" y2="15.12" width="0" layer="20"/>
-<wire x1="0" y1="15.12" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="22.74" y2="0" width="0" layer="20"/>
+<wire x1="22.74" y1="0" x2="22.74" y2="17.66" width="0" layer="20"/>
+<wire x1="22.74" y1="17.66" x2="0" y2="17.66" width="0" layer="20"/>
+<wire x1="0" y1="17.66" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
-<library name="SN74LVC2G07DBVR">
-<description>&lt;DUAL BUFFER/DRIVER WITH OPEN-DRAIN OUTPUTS&lt;/b&gt;&lt;p&gt;
+<library name="Si8600AC-B-IS">
+<description>&lt;Isolator,digital,I2C,1.7MHz,3.7kV,SOIC8N Silicon Labs Si8600AC-B-IS PCB SMT 2-channel I2C Digital Isolator, 3.75 kVrms, 8-Pin SOIC&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOT95P280X145-6N">
-<description>&lt;b&gt;SOT95P280X145-6N&lt;/b&gt;&lt;br&gt;
+<package name="SOIC127P600X175-8N">
+<description>&lt;b&gt;8-Pin Narrow Body SOIC Package&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-1.2954" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
-<smd name="2" x="-1.2954" y="0" dx="1.27" dy="0.5588" layer="1"/>
-<smd name="3" x="-1.2954" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
-<smd name="4" x="1.2954" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
-<smd name="5" x="1.2954" y="0" dx="1.27" dy="0.5588" layer="1"/>
-<smd name="6" x="1.2954" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
-<text x="-3.4544" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-3.4544" y="-4.445" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.5334" y1="-1.524" x2="0.5334" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="0.5334" y1="1.524" x2="0.3048" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="1.524" x2="-0.3048" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-0.3048" y1="1.524" x2="-0.5334" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="1.524" x2="-0.3048" y2="1.524" width="0.1524" layer="21" curve="-180"/>
+<smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.7" layer="1"/>
+<smd name="2" x="-2.712" y="0.635" dx="1.525" dy="0.7" layer="1"/>
+<smd name="3" x="-2.712" y="-0.635" dx="1.525" dy="0.7" layer="1"/>
+<smd name="4" x="-2.712" y="-1.905" dx="1.525" dy="0.7" layer="1"/>
+<smd name="5" x="2.712" y="-1.905" dx="1.525" dy="0.7" layer="1"/>
+<smd name="6" x="2.712" y="-0.635" dx="1.525" dy="0.7" layer="1"/>
+<smd name="7" x="2.712" y="0.635" dx="1.525" dy="0.7" layer="1"/>
+<smd name="8" x="2.712" y="1.905" dx="1.525" dy="0.7" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="2.75" x2="3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="2.75" x2="3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-2.75" x2="-3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-2.75" x2="-3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="2.45" x2="1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="2.45" x2="1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-2.45" x2="-1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-2.45" x2="-1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="-3.475" y1="2.605" x2="-1.95" y2="2.605" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>
@@ -300,53 +311,67 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="SN74LVC2G07DBVR" package="SOT95P280X145-6N" value="SN74LVC2G07DBVR" x="10.16" y="7.62">
-<attribute name="ARROW_PART_NUMBER" value="SN74LVC2G07DBVR" x="10.16" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE/STOCK" value="https://www.arrow.com/en/products/sn74lvc2g07dbvr/texas-instruments" x="10.16" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="DUAL BUFFER/DRIVER WITH OPEN-DRAIN OUTPUTS" x="10.16" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="10.16" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="10.16" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74LVC2G07DBVR" x="10.16" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PART_NUMBER" value="6628913P" x="10.16" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/6628913P" x="10.16" y="7.62" size="1.778" layer="27" display="off"/>
+<element name="IC1" library="Si8600AC-B-IS" package="SOIC127P600X175-8N" value="SI8600AC-B-IS" x="11.43" y="8.319065625">
+<attribute name="ALLIED_NUMBER" value="R1015655" x="11.43" y="8.319065625" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE/STOCK" value="http://www.alliedelec.com/silicon-laboratories-si8600ac-b-is/R1015655/" x="11.43" y="8.319065625" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PART_NUMBER" value="Si8600AC-B-IS" x="11.43" y="8.319065625" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE/STOCK" value="https://www.arrow.com/en/products/si8600ac-b-is/silicon-labs" x="11.43" y="8.319065625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Isolator,digital,I2C,1.7MHz,3.7kV,SOIC8N Silicon Labs Si8600AC-B-IS PCB SMT 2-channel I2C Digital Isolator, 3.75 kVrms, 8-Pin SOIC" x="11.43" y="8.319065625" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="11.43" y="8.319065625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Silicon Labs" x="11.43" y="8.319065625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="Si8600AC-B-IS" x="11.43" y="8.319065625" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="1689848" x="11.43" y="8.319065625" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/1689848" x="11.43" y="8.319065625" size="1.778" layer="27" display="off"/>
 </element>
-<element name="PAD1" library="ee2parts" package="2,54/1,1" value="" x="5.116821875" y="11.437259375"/>
-<element name="PAD2" library="ee2parts" package="2,54/1,1" value="" x="5.116821875" y="7.627259375"/>
-<element name="PAD3" library="ee2parts" package="2,54/1,1" value="" x="5.116821875" y="3.817259375"/>
-<element name="PAD4" library="ee2parts" package="2,54/1,1" value="" x="15.185275" y="11.434053125"/>
-<element name="PAD5" library="ee2parts" package="2,54/1,1" value="" x="15.185275" y="7.624053125"/>
-<element name="PAD6" library="ee2parts" package="2,54/1,1" value="" x="15.185275" y="3.814053125"/>
+<element name="PAD1" library="ee2parts" package="2,54/1,1" value="" x="3.81" y="13.97"/>
+<element name="PAD2" library="ee2parts" package="2,54/1,1" value="" x="3.81" y="10.16"/>
+<element name="PAD3" library="ee2parts" package="2,54/1,1" value="" x="3.81" y="6.35"/>
+<element name="PAD4" library="ee2parts" package="2,54/1,1" value="" x="3.81" y="2.54"/>
+<element name="PAD5" library="ee2parts" package="2,54/1,1" value="" x="18.921515625" y="13.890534375"/>
+<element name="PAD6" library="ee2parts" package="2,54/1,1" value="" x="18.921515625" y="10.080534375"/>
+<element name="PAD7" library="ee2parts" package="2,54/1,1" value="" x="18.921515625" y="6.270534375"/>
+<element name="PAD8" library="ee2parts" package="2,54/1,1" value="" x="18.921515625" y="2.460534375"/>
 </elements>
 <signals>
 <signal name="N$1">
-<contactref element="IC1" pad="2"/>
-<contactref element="PAD2" pad="1"/>
-<wire x1="5.116821875" y1="7.627259375" x2="8.8646" y2="7.62" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
 <contactref element="IC1" pad="1"/>
 <contactref element="PAD1" pad="1"/>
-<wire x1="5.116821875" y1="11.437259375" x2="8.8646" y2="8.5598" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="13.97" x2="8.718" y2="10.224065625" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="IC1" pad="2"/>
+<contactref element="PAD2" pad="1"/>
+<wire x1="3.81" y1="10.16" x2="8.718" y2="8.954065625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
-<contactref element="PAD3" pad="1"/>
 <contactref element="IC1" pad="3"/>
-<wire x1="5.116821875" y1="3.817259375" x2="8.8646" y2="6.6802" width="0" layer="19" extent="1-1"/>
+<contactref element="PAD3" pad="1"/>
+<wire x1="3.81" y1="6.35" x2="8.718" y2="7.684065625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
-<contactref element="IC1" pad="6"/>
+<contactref element="IC1" pad="4"/>
 <contactref element="PAD4" pad="1"/>
-<wire x1="15.185275" y1="11.434053125" x2="11.4554" y2="8.5598" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="2.54" x2="8.718" y2="6.414065625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
-<contactref element="PAD6" pad="1"/>
-<contactref element="IC1" pad="4"/>
-<wire x1="15.185275" y1="3.814053125" x2="11.4554" y2="6.6802" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="5"/>
+<contactref element="PAD8" pad="1"/>
+<wire x1="18.921515625" y1="2.460534375" x2="14.142" y2="6.414065625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
-<contactref element="IC1" pad="5"/>
+<contactref element="PAD7" pad="1"/>
+<contactref element="IC1" pad="6"/>
+<wire x1="18.921515625" y1="6.270534375" x2="14.142" y2="7.684065625" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="PAD6" pad="1"/>
+<contactref element="IC1" pad="7"/>
+<wire x1="18.921515625" y1="10.080534375" x2="14.142" y2="8.954065625" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
 <contactref element="PAD5" pad="1"/>
-<wire x1="15.185275" y1="7.624053125" x2="11.4554" y2="7.62" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="8"/>
+<wire x1="18.921515625" y1="13.890534375" x2="14.142" y2="10.224065625" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

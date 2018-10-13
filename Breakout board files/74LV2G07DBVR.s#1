@@ -62,88 +62,71 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Si8600AC-B-IS">
-<description>&lt;Isolator,digital,I2C,1.7MHz,3.7kV,SOIC8N Silicon Labs Si8600AC-B-IS PCB SMT 2-channel I2C Digital Isolator, 3.75 kVrms, 8-Pin SOIC&lt;/b&gt;&lt;p&gt;
+<library name="SN74LVC2G07DBVR">
+<description>&lt;DUAL BUFFER/DRIVER WITH OPEN-DRAIN OUTPUTS&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOIC127P600X175-8N">
-<description>&lt;b&gt;8-Pin Narrow Body SOIC Package&lt;/b&gt;&lt;br&gt;
+<package name="SOT95P280X145-6N">
+<description>&lt;b&gt;SOT95P280X145-6N&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.7" layer="1"/>
-<smd name="2" x="-2.712" y="0.635" dx="1.525" dy="0.7" layer="1"/>
-<smd name="3" x="-2.712" y="-0.635" dx="1.525" dy="0.7" layer="1"/>
-<smd name="4" x="-2.712" y="-1.905" dx="1.525" dy="0.7" layer="1"/>
-<smd name="5" x="2.712" y="-1.905" dx="1.525" dy="0.7" layer="1"/>
-<smd name="6" x="2.712" y="-0.635" dx="1.525" dy="0.7" layer="1"/>
-<smd name="7" x="2.712" y="0.635" dx="1.525" dy="0.7" layer="1"/>
-<smd name="8" x="2.712" y="1.905" dx="1.525" dy="0.7" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.725" y1="2.75" x2="3.725" y2="2.75" width="0.05" layer="51"/>
-<wire x1="3.725" y1="2.75" x2="3.725" y2="-2.75" width="0.05" layer="51"/>
-<wire x1="3.725" y1="-2.75" x2="-3.725" y2="-2.75" width="0.05" layer="51"/>
-<wire x1="-3.725" y1="-2.75" x2="-3.725" y2="2.75" width="0.05" layer="51"/>
-<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
-<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
-<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
-<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
-<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="2.45" x2="1.6" y2="2.45" width="0.2" layer="21"/>
-<wire x1="1.6" y1="2.45" x2="1.6" y2="-2.45" width="0.2" layer="21"/>
-<wire x1="1.6" y1="-2.45" x2="-1.6" y2="-2.45" width="0.2" layer="21"/>
-<wire x1="-1.6" y1="-2.45" x2="-1.6" y2="2.45" width="0.2" layer="21"/>
-<wire x1="-3.475" y1="2.605" x2="-1.95" y2="2.605" width="0.2" layer="21"/>
+<smd name="1" x="-1.2954" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="2" x="-1.2954" y="0" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="3" x="-1.2954" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="4" x="1.2954" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="5" x="1.2954" y="0" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="6" x="1.2954" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
+<text x="-3.4544" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-3.4544" y="-4.445" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.5334" y1="-1.524" x2="0.5334" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="0.5334" y1="1.524" x2="0.3048" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.524" x2="-0.3048" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="1.524" x2="-0.5334" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.524" x2="-0.3048" y2="1.524" width="0.1524" layer="21" curve="-180"/>
 </package>
 </packages>
 <symbols>
-<symbol name="SI8600AC-B-IS">
-<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-10.16" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="AVDD" x="0" y="0" length="middle" direction="pwr"/>
-<pin name="ASDA" x="0" y="-2.54" length="middle"/>
-<pin name="ASCL" x="0" y="-5.08" length="middle"/>
-<pin name="AGND" x="0" y="-7.62" length="middle" direction="pwr"/>
-<pin name="BVDD" x="27.94" y="0" length="middle" direction="pwr" rot="R180"/>
-<pin name="BSDA" x="27.94" y="-2.54" length="middle" rot="R180"/>
-<pin name="BSCL" x="27.94" y="-5.08" length="middle" rot="R180"/>
-<pin name="BGND" x="27.94" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<symbol name="SN74LVC2G07DBVR">
+<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1A" x="0" y="0" length="middle"/>
+<pin name="GND" x="0" y="-2.54" length="middle"/>
+<pin name="2A" x="0" y="-5.08" length="middle"/>
+<pin name="2Y" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="VCC" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="1Y" x="25.4" y="-5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SI8600AC-B-IS" prefix="IC">
-<description>&lt;b&gt;Isolator,digital,I2C,1.7MHz,3.7kV,SOIC8N Silicon Labs Si8600AC-B-IS PCB SMT 2-channel I2C Digital Isolator, 3.75 kVrms, 8-Pin SOIC&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/10a3/0900766b810a3b8e.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="SN74LVC2G07DBVR" prefix="IC">
+<description>&lt;b&gt;DUAL BUFFER/DRIVER WITH OPEN-DRAIN OUTPUTS&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://componentsearchengine.com/Datasheets/3/SN74LVC2G07DBVR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="SI8600AC-B-IS" x="0" y="0"/>
+<gate name="G$1" symbol="SN74LVC2G07DBVR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC127P600X175-8N">
+<device name="" package="SOT95P280X145-6N">
 <connects>
-<connect gate="G$1" pin="AGND" pad="4"/>
-<connect gate="G$1" pin="ASCL" pad="3"/>
-<connect gate="G$1" pin="ASDA" pad="2"/>
-<connect gate="G$1" pin="AVDD" pad="1"/>
-<connect gate="G$1" pin="BGND" pad="5"/>
-<connect gate="G$1" pin="BSCL" pad="6"/>
-<connect gate="G$1" pin="BSDA" pad="7"/>
-<connect gate="G$1" pin="BVDD" pad="8"/>
+<connect gate="G$1" pin="1A" pad="1"/>
+<connect gate="G$1" pin="1Y" pad="6"/>
+<connect gate="G$1" pin="2A" pad="3"/>
+<connect gate="G$1" pin="2Y" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ALLIED_NUMBER" value="R1015655" constant="no"/>
-<attribute name="ALLIED_PRICE/STOCK" value="http://www.alliedelec.com/silicon-laboratories-si8600ac-b-is/R1015655/" constant="no"/>
-<attribute name="ARROW_PART_NUMBER" value="Si8600AC-B-IS" constant="no"/>
-<attribute name="ARROW_PRICE/STOCK" value="https://www.arrow.com/en/products/si8600ac-b-is/silicon-labs" constant="no"/>
-<attribute name="DESCRIPTION" value="Isolator,digital,I2C,1.7MHz,3.7kV,SOIC8N Silicon Labs Si8600AC-B-IS PCB SMT 2-channel I2C Digital Isolator, 3.75 kVrms, 8-Pin SOIC" constant="no"/>
-<attribute name="HEIGHT" value="1.75mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Silicon Labs" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="Si8600AC-B-IS" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="1689848" constant="no"/>
-<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/1689848" constant="no"/>
+<attribute name="ARROW_PART_NUMBER" value="SN74LVC2G07DBVR" constant="no"/>
+<attribute name="ARROW_PRICE/STOCK" value="https://www.arrow.com/en/products/sn74lvc2g07dbvr/texas-instruments" constant="no"/>
+<attribute name="DESCRIPTION" value="DUAL BUFFER/DRIVER WITH OPEN-DRAIN OUTPUTS" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74LVC2G07DBVR" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="6628913P" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/6628913P" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -209,98 +192,74 @@ Large pad for mounting PCB pin for convenient prototype off-board connections</d
 </class>
 </classes>
 <parts>
-<part name="IC1" library="Si8600AC-B-IS" deviceset="SI8600AC-B-IS" device=""/>
+<part name="IC1" library="SN74LVC2G07DBVR" deviceset="SN74LVC2G07DBVR" device=""/>
 <part name="PAD1" library="ee2parts" deviceset="PAD-TERMINAL" device=""/>
 <part name="PAD2" library="ee2parts" deviceset="PAD-TERMINAL" device=""/>
 <part name="PAD3" library="ee2parts" deviceset="PAD-TERMINAL" device=""/>
 <part name="PAD4" library="ee2parts" deviceset="PAD-TERMINAL" device=""/>
 <part name="PAD5" library="ee2parts" deviceset="PAD-TERMINAL" device=""/>
 <part name="PAD6" library="ee2parts" deviceset="PAD-TERMINAL" device=""/>
-<part name="PAD7" library="ee2parts" deviceset="PAD-TERMINAL" device=""/>
-<part name="PAD8" library="ee2parts" deviceset="PAD-TERMINAL" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="53.34" y="50.8"/>
-<instance part="PAD1" gate="1" x="45.72" y="55.88"/>
-<instance part="PAD2" gate="1" x="45.72" y="50.8"/>
-<instance part="PAD3" gate="1" x="45.72" y="45.72"/>
-<instance part="PAD4" gate="1" x="45.72" y="40.64"/>
-<instance part="PAD5" gate="1" x="88.9" y="55.88" rot="R180"/>
-<instance part="PAD6" gate="1" x="88.9" y="50.8" rot="R180"/>
-<instance part="PAD7" gate="1" x="88.9" y="45.72" rot="R180"/>
-<instance part="PAD8" gate="1" x="88.9" y="40.64" rot="R180"/>
+<instance part="IC1" gate="G$1" x="63.5" y="45.72"/>
+<instance part="PAD1" gate="1" x="55.88" y="48.26"/>
+<instance part="PAD2" gate="1" x="55.88" y="43.18"/>
+<instance part="PAD3" gate="1" x="55.88" y="38.1"/>
+<instance part="PAD4" gate="1" x="96.52" y="38.1" rot="R180"/>
+<instance part="PAD5" gate="1" x="96.52" y="43.18" rot="R180"/>
+<instance part="PAD6" gate="1" x="96.52" y="48.26" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="AVDD"/>
-<wire x1="53.34" y1="50.8" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="PAD1" gate="1" pin="P"/>
-<wire x1="53.34" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="PAD2" gate="1" pin="P"/>
+<wire x1="63.5" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="ASDA"/>
-<wire x1="53.34" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="48.26" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="PAD2" gate="1" pin="P"/>
-<wire x1="50.8" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="1A"/>
+<pinref part="PAD1" gate="1" pin="P"/>
+<wire x1="63.5" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="45.72" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="ASCL"/>
 <pinref part="PAD3" gate="1" pin="P"/>
-<wire x1="53.34" y1="45.72" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="38.1" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="2A"/>
+<wire x1="58.42" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="AGND"/>
-<wire x1="53.34" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="43.18" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="1Y"/>
 <pinref part="PAD4" gate="1" pin="P"/>
-<wire x1="50.8" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="40.64" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="BGND"/>
-<wire x1="81.28" y1="43.18" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="43.18" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="PAD8" gate="1" pin="P"/>
-<wire x1="83.82" y1="40.64" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="PAD6" gate="1" pin="P"/>
+<wire x1="93.98" y1="48.26" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="2Y"/>
+<wire x1="93.98" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="PAD7" gate="1" pin="P"/>
-<pinref part="IC1" gate="G$1" pin="BSCL"/>
-<wire x1="86.36" y1="45.72" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="PAD6" gate="1" pin="P"/>
-<wire x1="86.36" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="50.8" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="BSDA"/>
-<wire x1="83.82" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
+<pinref part="IC1" gate="G$1" pin="VCC"/>
 <pinref part="PAD5" gate="1" pin="P"/>
-<pinref part="IC1" gate="G$1" pin="BVDD"/>
-<wire x1="86.36" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="55.88" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
