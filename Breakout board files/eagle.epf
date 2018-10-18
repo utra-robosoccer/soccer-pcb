@@ -12,8 +12,8 @@ UsedLibrary="C:/Users/kids/Downloads/STM32F767VGT6.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="1910 0 2749 1113"
-State=0
+Loc="0 0 1919 985"
+State=1
 Number=0
 
 [Desktop]
