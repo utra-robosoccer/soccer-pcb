@@ -7631,7 +7631,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.1524" drill="0">
 </class>
 <class number="1" name="diff pairs" width="0.254" drill="0">
 </class>
@@ -7966,9 +7966,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="55.88" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="10"/>
-<wire x1="53.34" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
-<label x="55.88" y="101.6" size="1.778" layer="95"/>
+<pinref part="SV2" gate="G$1" pin="8"/>
+<wire x1="53.34" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
+<label x="55.88" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MDIO" class="0">
@@ -7983,9 +7983,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="8"/>
-<wire x1="53.34" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
-<label x="55.88" y="99.06" size="1.778" layer="95"/>
+<pinref part="SV2" gate="G$1" pin="10"/>
+<wire x1="53.34" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
+<label x="55.88" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -8152,7 +8152,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="129.54" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="215.9" y1="60.96" x2="200.66" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
 <label x="203.2" y="60.96" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="LED1+"/>
 </segment>
