@@ -149,10 +149,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="-2.54" y1="3.81" x2="126.67" y2="1.27" width="0" layer="20"/>
-<wire x1="126.67" y1="1.27" x2="110.16" y2="69.84" width="0" layer="20"/>
-<wire x1="110.16" y1="69.84" x2="-2.54" y2="68.57" width="0" layer="20"/>
-<wire x1="-2.54" y1="68.57" x2="-2.54" y2="3.81" width="0" layer="20"/>
+<wire x1="0" y1="20.32" x2="89.84" y2="20.32" width="0" layer="20"/>
+<wire x1="89.84" y1="20.32" x2="89.84" y2="55.87" width="0" layer="20"/>
+<wire x1="89.84" y1="55.87" x2="0" y2="55.87" width="0" layer="20"/>
+<wire x1="0" y1="55.87" x2="0" y2="20.32" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun-Switches">
@@ -1700,9 +1700,9 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="D" x="55.88" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICETYPE" value="diode" x="55.88" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LM1" library="SparkFun-IC-Power" package="TO-220-ALT" value="" x="20.32" y="45.72" rot="R90">
-<attribute name="PROD_ID" value="VREG-08450" x="20.32" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SF_ID" value="COM-00107" x="20.32" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="LM1" library="SparkFun-IC-Power" package="TO-220-ALT" value="" x="15.24" y="45.72" rot="R90">
+<attribute name="PROD_ID" value="VREG-08450" x="15.24" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SF_ID" value="COM-00107" x="15.24" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="PWR1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="26.67" y="27.94" rot="R180"/>
 <element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3" value="10k" x="38.1" y="45.72" rot="MR0">
@@ -1736,11 +1736,11 @@ design rules under a new name.</description>
 <element name="X5" library="SparkFun-Clocks" package="CRYSTAL-PTH-2X6-CYL" value="32.768kHz" x="57.15" y="41.91">
 <attribute name="PROD_ID" value="XTAL-10112" x="57.15" y="41.91" size="1.778" layer="27" display="off"/>
 </element>
-<element name="X6" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MSTBA2" package3d_urn="urn:adsk.eagle:package:9615/1" value="MSTBA2" x="8.89" y="33.02" rot="R270">
-<attribute name="MF" value="FARNELL" x="8.89" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="1757242" x="8.89" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="3705171" x="8.89" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="71C4161" x="8.89" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="X6" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MSTBA2" package3d_urn="urn:adsk.eagle:package:9615/1" value="MSTBA2" x="5.08" y="31.75" rot="R270">
+<attribute name="MF" value="FARNELL" x="5.08" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="1757242" x="5.08" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="3705171" x="5.08" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="71C4161" x="5.08" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1814,7 +1814,7 @@ design rules under a new name.</description>
 <wire x1="28.55" y1="33.26" x2="79.2988" y2="32.7406" width="0" layer="19" extent="1-1"/>
 <wire x1="76.318" y1="43.6" x2="28.55" y2="33.26" width="0" layer="19" extent="1-1"/>
 <wire x1="74.08" y1="30.362" x2="62.58" y2="30.362" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="45.72" x2="74.08" y2="30.362" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="45.72" x2="74.08" y2="30.362" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD">
 <contactref element="VBAT1" pad="2"/>
@@ -1903,8 +1903,8 @@ design rules under a new name.</description>
 <contactref element="LM1" pad="IN"/>
 <contactref element="JP4" pad="9"/>
 <wire x1="19.05" y1="38.1" x2="86.36" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="43.18" x2="19.05" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="13.97" y1="35.56" x2="24.13" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="43.18" x2="19.05" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="34.29" x2="19.05" y2="43.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="PWR1" pad="3"/>
@@ -1912,14 +1912,14 @@ design rules under a new name.</description>
 <contactref element="C17" pad="2"/>
 <contactref element="LM1" pad="OUT"/>
 <wire x1="28.55" y1="37.86" x2="24.13" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="48.26" x2="28.55" y2="37.86" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="48.26" x2="28.55" y2="37.86" width="0" layer="19" extent="1-1"/>
 <wire x1="37.78" y1="30.48" x2="28.55" y2="37.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MGND">
 <contactref element="X6" pad="2"/>
 <contactref element="BEAD4" pad="1"/>
 <contactref element="C16" pad="1"/>
-<wire x1="19.05" y1="33.02" x2="13.97" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="33.02" x2="10.16" y2="29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="33.87" y1="31.75" x2="19.05" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">

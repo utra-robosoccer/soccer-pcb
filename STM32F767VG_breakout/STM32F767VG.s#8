@@ -4951,7 +4951,6 @@ Source: www.kingbright.com</description>
 <part name="ETHERNET" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X6" device="" package3d_urn="urn:adsk.eagle:package:22474/2"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="10KOHM" device="-HORIZ-1/4W-1%" value="10k"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="LED1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="LED_E" device="" package3d_urn="urn:adsk.eagle:package:13319/1"/>
 <part name="LED2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="LED_E" device="" package3d_urn="urn:adsk.eagle:package:13319/1"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="10KOHM" device="-HORIZ-1/4W-1%" value="100"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -5022,7 +5021,6 @@ Source: www.kingbright.com</description>
 <instance part="ETHERNET" gate="A" x="132.08" y="-15.24" rot="R180"/>
 <instance part="R2" gate="G$1" x="147.32" y="-63.5"/>
 <instance part="GND1" gate="1" x="160.02" y="-63.5" rot="R90"/>
-<instance part="LED1" gate="G$1" x="114.3" y="76.2"/>
 <instance part="LED2" gate="G$1" x="-22.86" y="60.96" rot="R90"/>
 <instance part="R3" gate="G$1" x="-33.02" y="60.96"/>
 <instance part="GND2" gate="1" x="-12.7" y="60.96" rot="R90"/>
@@ -5150,6 +5148,31 @@ Source: www.kingbright.com</description>
 <pinref part="LED4" gate="G$1" pin="C"/>
 <wire x1="-15.24" y1="40.64" x2="-17.78" y2="40.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VSS_1"/>
+<wire x1="0" y1="-22.86" x2="-2.54" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-2.54" y="-22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VSS_3"/>
+<wire x1="66.04" y1="-78.74" x2="66.04" y2="-81.28" width="0.1524" layer="91"/>
+<label x="66.04" y="-81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VSS_2"/>
+<wire x1="7.62" y1="-78.74" x2="7.62" y2="-81.28" width="0.1524" layer="91"/>
+<label x="7.62" y="-81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VSS_4"/>
+<wire x1="76.2" y1="-2.54" x2="78.74" y2="-2.54" width="0.1524" layer="91"/>
+<label x="76.2" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VSS_5"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
+<label x="10.16" y="20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VDD" class="0">
 <segment>
@@ -5209,6 +5232,31 @@ Source: www.kingbright.com</description>
 <pinref part="ETHERNET" gate="A" pin="11"/>
 <wire x1="134.62" y1="-7.62" x2="142.24" y2="-7.62" width="0.1524" layer="91"/>
 <label x="139.7" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDD_1"/>
+<wire x1="0" y1="-25.4" x2="-2.54" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-5.08" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDD_3"/>
+<wire x1="68.58" y1="-78.74" x2="68.58" y2="-81.28" width="0.1524" layer="91"/>
+<label x="68.58" y="-78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDD_2"/>
+<wire x1="10.16" y1="-78.74" x2="10.16" y2="-81.28" width="0.1524" layer="91"/>
+<label x="10.16" y="-83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDD_4"/>
+<wire x1="76.2" y1="0" x2="78.74" y2="0" width="0.1524" layer="91"/>
+<label x="76.2" y="0" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDD_5"/>
+<wire x1="7.62" y1="17.78" x2="7.62" y2="22.86" width="0.1524" layer="91"/>
+<label x="7.62" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
