@@ -2,26 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/kids/Documents/GitHub/soccer-pcb/STM32F767VG_breakout/STM32F767VG.brd
 
-Start at      : 17:36:27 (2019-03-24)
-End at        : 17:36:44 (2019-03-24)
-Elapsed time  : 00:00:15
+Start at      : 19:16:22 (2019-04-11)
+End at        : 19:16:27 (2019-04-11)
+Elapsed time  : 00:00:03
 
-Signals       :    99   RoutingGrid: 7 mil  Layers: 2
-Connections   :   163   predefined:  0 ( 0 Vias )
+Signals       :    97   RoutingGrid: 12.5 mil  Layers: 2
+Connections   :   161   predefined:  140 ( 90 Vias )
 
-Router memory :   696192
+Router memory :   208692
 
-Job has been interrupted!
+Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Passname          : TopRouter
+Time per pass     :  00:00:02  00:00:00  00:00:01  00:00:00  00:00:00
+Number of Ripups  :         0         0         0         0         0
+max. Level        :         1         0         0         0         0
+max. Total        :         0         0         0         0         0
 
-Time per pass     :  00:00:15
-Number of Ripups  :         0
-max. Level        :         0
-max. Total        :         0
+Routed            :         0         0         0         0         0
+Vias              :         0         0         0         0         0
+Resolution        :    87.0 %    87.0 %    87.0 %    87.0 %    87.0 %
 
-Routed            :        59
-Vias              :         0
-Resolution        :    36.2 %
-
-Final             : 35.6% finished
+Final             : 87.0% finished
