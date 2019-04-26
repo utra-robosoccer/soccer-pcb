@@ -1,0 +1,162 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SOP127P921X572-16N">
+<text x="-4.90394" y="-6.3421" size="1.27102" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-4.90287" y="6.34071" size="1.27074" layer="25">&gt;NAME</text>
+<circle x="-5.76" y="5.065" radius="0.2" width="0" layer="21"/>
+<circle x="-5.76" y="5.065" radius="0.2" width="0" layer="51"/>
+<wire x1="-3.62" y1="6.16" x2="3.62" y2="6.16" width="0.127" layer="51"/>
+<wire x1="-3.62" y1="-6.16" x2="3.62" y2="-6.16" width="0.127" layer="51"/>
+<wire x1="-3.62" y1="6.16" x2="3.62" y2="6.16" width="0.127" layer="21"/>
+<wire x1="-3.62" y1="-6.16" x2="3.62" y2="-6.16" width="0.127" layer="21"/>
+<wire x1="-3.62" y1="6.16" x2="-3.62" y2="-6.16" width="0.127" layer="51"/>
+<wire x1="3.62" y1="6.16" x2="3.62" y2="-6.16" width="0.127" layer="51"/>
+<wire x1="-5.37" y1="6.41" x2="5.37" y2="6.41" width="0.05" layer="39"/>
+<wire x1="-5.37" y1="-6.41" x2="5.37" y2="-6.41" width="0.05" layer="39"/>
+<wire x1="-5.37" y1="6.41" x2="-5.37" y2="-6.41" width="0.05" layer="39"/>
+<wire x1="5.37" y1="6.41" x2="5.37" y2="-6.41" width="0.05" layer="39"/>
+<smd name="1" x="-4.48" y="4.445" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="2" x="-4.48" y="3.175" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="3" x="-4.48" y="1.905" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="4" x="-4.48" y="0.635" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="5" x="-4.48" y="-0.635" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="6" x="-4.48" y="-1.905" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="7" x="-4.48" y="-3.175" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="8" x="-4.48" y="-4.445" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="9" x="4.48" y="-4.445" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="10" x="4.48" y="-3.175" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="11" x="4.48" y="-1.905" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="12" x="4.48" y="-0.635" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="13" x="4.48" y="0.635" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="14" x="4.48" y="1.905" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="15" x="4.48" y="3.175" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+<smd name="16" x="4.48" y="4.445" dx="1.28" dy="0.62" layer="1" roundness="25"/>
+</package>
+</packages>
+<symbols>
+</symbols>
+<devicesets>
+<deviceset name="SOP127P921X572-16N" prefix="P">
+<gates>
+</gates>
+<devices>
+<device name="" package="SOP127P921X572-16N">
+<technologies>
+<technology name="">
+<attribute name="A1_max" value="None"/>
+<attribute name="D_min" value="12.32"/>
+<attribute name="dnom" value=""/>
+<attribute name="E_min" value="8.89"/>
+<attribute name="emax" value=""/>
+<attribute name="A_nom" value="None"/>
+<attribute name="Thermal_Pad" value=""/>
+<attribute name="E1_max" value="7.24"/>
+<attribute name="Ball_Rows" value=""/>
+<attribute name="dmin" value=""/>
+<attribute name="Package_type" value=""/>
+<attribute name="D1_min" value=""/>
+<attribute name="D_nom" value="12.32"/>
+<attribute name="E1_min" value="7.24"/>
+<attribute name="A_max" value="5.72"/>
+<attribute name="A_min" value="None"/>
+<attribute name="A1_nom" value="None"/>
+<attribute name="pins" value=""/>
+<attribute name="emin" value=""/>
+<attribute name="D1_max" value=""/>
+<attribute name="L_max" value="0.3"/>
+<attribute name="E1_nom" value="7.24"/>
+<attribute name="D1_nom" value=""/>
+<attribute name="Ball_Columns" value=""/>
+<attribute name="D_max" value="12.32"/>
+<attribute name="A1_min" value="0.08"/>
+<attribute name="Pin_Columns" value=""/>
+<attribute name="E_nom" value="9.21"/>
+<attribute name="b_max" value="0.51"/>
+<attribute name="JEDEC" value=""/>
+<attribute name="Body_Diameter" value=""/>
+<attribute name="L_nom" value="0.25"/>
+<attribute name="enom" value="1.27"/>
+<attribute name="L_min" value="0.2"/>
+<attribute name="D2_max" value="0.0"/>
+<attribute name="L1_nom" value=""/>
+<attribute name="MANUFACTURER" value="Bel Fuse"/>
+<attribute name="PIN_COUNT" value="16.0"/>
+<attribute name="E2_min" value="None"/>
+<attribute name="D2_min" value="None"/>
+<attribute name="L1_max" value=""/>
+<attribute name="IPC" value=""/>
+<attribute name="E_max" value="9.53"/>
+<attribute name="dmax" value=""/>
+<attribute name="b_nom" value="0.46"/>
+<attribute name="Vacancies" value=""/>
+<attribute name="SNAPEDA_PACKAGE_ID" value="42061"/>
+<attribute name="E2_max" value="0.0"/>
+<attribute name="L1_min" value=""/>
+<attribute name="D2_nom" value="None"/>
+<attribute name="E2_nom" value="None"/>
+<attribute name="b_min" value="0.41"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
