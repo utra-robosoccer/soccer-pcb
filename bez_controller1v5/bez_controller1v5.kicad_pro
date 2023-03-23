@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -438,6 +438,10 @@
     [
       "f1f9e721-9072-4626-979b-e86715e2d8d4",
       ""
+    ],
+    [
+      "f4fe09ab-524b-4414-b02d-a39811144a58",
+      "Buffers Circuitry"
     ]
   ],
   "text_variables": {}
