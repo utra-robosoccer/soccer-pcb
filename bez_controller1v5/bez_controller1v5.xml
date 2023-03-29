@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\lkune\OneDrive\Desktop\Robosoccer_PCB\soccer-pcb\bez_controller1v5\bez_controller1v5.kicad_sch</source>
-    <date>3/23/2023 9:24:34 AM</date>
+    <date>3/27/2023 12:57:10 PM</date>
     <tool>Eeschema (6.0.11)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -98,7 +98,7 @@
     </comp>
     <comp ref="C7">
       <value>10uF/50V</value>
-      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bez_controller1v5.kicad_sch"/>
@@ -107,7 +107,7 @@
     </comp>
     <comp ref="C8">
       <value>22uF/16V</value>
-      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bez_controller1v5.kicad_sch"/>
@@ -125,7 +125,7 @@
     </comp>
     <comp ref="C10">
       <value>2.2uF electrolytic</value>
-      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <footprint>Capacitor_THT:C_Radial_D4.0mm_H7.0mm_P1.50mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bez_controller1v5.kicad_sch"/>
@@ -143,7 +143,7 @@
     </comp>
     <comp ref="C12">
       <value>10uF</value>
-      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bez_controller1v5.kicad_sch"/>
@@ -152,7 +152,7 @@
     </comp>
     <comp ref="C13">
       <value>10uF</value>
-      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bez_controller1v5.kicad_sch"/>
@@ -242,7 +242,7 @@
     </comp>
     <comp ref="C23">
       <value>4.7uF</value>
-      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <footprint>Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bez_controller1v5.kicad_sch"/>
@@ -267,15 +267,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3da0fd53-4389-49d9-bbb5-c45c1c3497fa</tstamps>
     </comp>
-    <comp ref="C26">
-      <value>10uF</value>
-      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="bez_controller1v5.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1e7bf446-28ca-4b25-8b1c-1b689e88371d</tstamps>
-    </comp>
     <comp ref="D1">
       <value>RED</value>
       <footprint>LED_THT:LED_D5.0mm_Clear</footprint>
@@ -284,15 +275,6 @@
       <property name="Sheetfile" value="bez_controller1v5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>acf253c3-52c2-428c-9d7d-61ba2594f1d4</tstamps>
-    </comp>
-    <comp ref="D2">
-      <value>schottky</value>
-      <footprint>Diode_THT:D_5W_P5.08mm_Vertical_KathodeUp</footprint>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="bez_controller1v5.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>54f76aa9-4ad4-4af3-8e80-9fb5eb67f0a9</tstamps>
     </comp>
     <comp ref="D3">
       <value>GREEN</value>
@@ -536,24 +518,6 @@
       <property name="Sheetfile" value="bez_controller1v5.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>39ffc2fd-12d0-452b-888a-30bfa26f4153</tstamps>
-    </comp>
-    <comp ref="R9">
-      <value>80k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="bez_controller1v5.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7f3ad476-162a-44e9-9a87-c49b4608880b</tstamps>
-    </comp>
-    <comp ref="R10">
-      <value>15k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="bez_controller1v5.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b8c06561-8862-4772-9b74-b7ffd49bedc1</tstamps>
     </comp>
     <comp ref="R11">
       <value>1k</value>
@@ -833,25 +797,6 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="D">
-      <description>Diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="FerriteBead">
       <description>Ferrite bead</description>
       <docs>~</docs>
@@ -1087,7 +1032,6 @@
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="FB2" pin="2" pintype="passive"/>
       <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -1142,15 +1086,7 @@
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U7" pin="1" pinfunction="VI" pintype="power_in"/>
-    </net>
-    <net code="6" name="/ADC1_IN10">
-      <node ref="C26" pin="1" pintype="passive"/>
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
-      <node ref="U11" pin="8" pinfunction="PC0" pintype="bidirectional"/>
     </net>
     <net code="7" name="/BOOT0">
       <node ref="R8" pin="2" pintype="passive"/>
@@ -1355,7 +1291,6 @@
       <node ref="C23" pin="2" pintype="passive"/>
       <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C25" pin="2" pintype="passive"/>
-      <node ref="C26" pin="2" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
@@ -1373,7 +1308,6 @@
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U10" pin="2" pinfunction="GND" pintype="passive"/>
@@ -1406,7 +1340,7 @@
     </net>
     <net code="51" name="Net-(R11-Pad2)">
       <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="U11" pin="40" pinfunction="PC9" pintype="bidirectional"/>
+      <node ref="U11" pin="50" pinfunction="PA15" pintype="bidirectional"/>
     </net>
     <net code="52" name="VBUS">
       <node ref="J12" pin="1" pinfunction="VBUS" pintype="power_out"/>
@@ -1440,58 +1374,61 @@
     <net code="61" name="unconnected-(U11-Pad4)">
       <node ref="U11" pin="4" pinfunction="PC15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="62" name="unconnected-(U11-Pad9)">
+    <net code="62" name="unconnected-(U11-Pad8)">
+      <node ref="U11" pin="8" pinfunction="PC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U11-Pad9)">
       <node ref="U11" pin="9" pinfunction="PC1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="63" name="unconnected-(U11-Pad10)">
+    <net code="64" name="unconnected-(U11-Pad10)">
       <node ref="U11" pin="10" pinfunction="PC2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="64" name="unconnected-(U11-Pad21)">
+    <net code="65" name="unconnected-(U11-Pad21)">
       <node ref="U11" pin="21" pinfunction="PA5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="65" name="unconnected-(U11-Pad22)">
+    <net code="66" name="unconnected-(U11-Pad22)">
       <node ref="U11" pin="22" pinfunction="PA6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="66" name="unconnected-(U11-Pad23)">
+    <net code="67" name="unconnected-(U11-Pad23)">
       <node ref="U11" pin="23" pinfunction="PA7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="67" name="unconnected-(U11-Pad24)">
+    <net code="68" name="unconnected-(U11-Pad24)">
       <node ref="U11" pin="24" pinfunction="PC4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="68" name="unconnected-(U11-Pad26)">
+    <net code="69" name="unconnected-(U11-Pad26)">
       <node ref="U11" pin="26" pinfunction="PB0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="69" name="unconnected-(U11-Pad27)">
+    <net code="70" name="unconnected-(U11-Pad27)">
       <node ref="U11" pin="27" pinfunction="PB1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="70" name="unconnected-(U11-Pad33)">
+    <net code="71" name="unconnected-(U11-Pad33)">
       <node ref="U11" pin="33" pinfunction="PB12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="71" name="unconnected-(U11-Pad34)">
+    <net code="72" name="unconnected-(U11-Pad34)">
       <node ref="U11" pin="34" pinfunction="PB13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="72" name="unconnected-(U11-Pad35)">
+    <net code="73" name="unconnected-(U11-Pad35)">
       <node ref="U11" pin="35" pinfunction="PB14" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(U11-Pad39)">
+    <net code="74" name="unconnected-(U11-Pad39)">
       <node ref="U11" pin="39" pinfunction="PC8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(U11-Pad50)">
-      <node ref="U11" pin="50" pinfunction="PA15" pintype="bidirectional+no_connect"/>
+    <net code="75" name="unconnected-(U11-Pad40)">
+      <node ref="U11" pin="40" pinfunction="PC9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="75" name="unconnected-(U11-Pad51)">
+    <net code="76" name="unconnected-(U11-Pad51)">
       <node ref="U11" pin="51" pinfunction="PC10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(U11-Pad52)">
+    <net code="77" name="unconnected-(U11-Pad52)">
       <node ref="U11" pin="52" pinfunction="PC11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(U11-Pad57)">
+    <net code="78" name="unconnected-(U11-Pad57)">
       <node ref="U11" pin="57" pinfunction="PB5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U11-Pad61)">
+    <net code="79" name="unconnected-(U11-Pad61)">
       <node ref="U11" pin="61" pinfunction="PB8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U11-Pad62)">
+    <net code="80" name="unconnected-(U11-Pad62)">
       <node ref="U11" pin="62" pinfunction="PB9" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
