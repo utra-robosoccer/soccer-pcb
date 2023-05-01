@@ -5214,7 +5214,7 @@
     (property "Value" "USB_B_Mini" (id 1) (at 269.24 116.205 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" (id 2) (at 270.51 126.365 0)
+    (property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001" (id 2) (at 270.51 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 270.51 126.365 0)
@@ -6649,7 +6649,7 @@
       (reference "J11") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/7b319a20-c9b9-4bdb-ba6d-e9e1d4356557"
-      (reference "J12") (unit 1) (value "USB_B_Mini") (footprint "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal")
+      (reference "J12") (unit 1) (value "USB_B_Mini") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
     )
     (path "/c6107e00-c08d-48b4-bd93-f1c2a28409df"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
