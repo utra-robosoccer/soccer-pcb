@@ -2033,7 +2033,6 @@
     )
   )
 
-
   (junction (at 40.005 -102.235) (diameter 0) (color 0 0 0 0)
     (uuid 03fb0169-3c7d-4b6f-9d6e-bb99bc98b7e6)
   )
@@ -5637,7 +5636,7 @@
     (property "Reference" "U10" (id 0) (at 222.885 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "USBLC6-2SC6" (id 1) (at 219.71 135.255 0)
+    (property "Value" "USBLC6-4SC6" (id 1) (at 219.71 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (id 2) (at 217.805 138.43 0)
@@ -6724,7 +6723,7 @@
       (reference "U9") (unit 1) (value "LD1117AS33TR_SOT223") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
     (path "/a3e60d78-8f0c-489c-bb93-f33bf2d06331"
-      (reference "U10") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+      (reference "U10") (unit 1) (value "USBLC6-4SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/600ad990-a858-4b9c-b042-6f5c64a82f42"
       (reference "U11") (unit 1) (value "STM32F446RETx") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
