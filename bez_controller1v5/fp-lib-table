@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "bez_controller1v5")(type "KiCad")(uri "C:/Users/lkune/OneDrive/Desktop/Robosoccer_PCB/soccer-pcb/bez_controller1v5.pretty")(options "")(descr ""))
+)
