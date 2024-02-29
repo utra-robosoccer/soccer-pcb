@@ -2033,6 +2033,7 @@
     )
   )
 
+
   (junction (at 40.005 -102.235) (diameter 0) (color 0 0 0 0)
     (uuid 03fb0169-3c7d-4b6f-9d6e-bb99bc98b7e6)
   )
@@ -5407,7 +5408,7 @@
     (uuid 8ea71e0e-778b-446c-9e05-31e3f2bd08e7)
     (property "Reference" "J10" (id 0) (at 125.095 58.42 0))
     (property "Value" "Screw_Terminal_01x02" (id 1) (at 125.095 60.96 0))
-    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 125.095 67.945 0)
+    (property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal" (id 2) (at 125.095 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 125.095 67.945 0)
@@ -6642,7 +6643,7 @@
       (reference "J9") (unit 1) (value "JTAG Conn_01x06_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/8ea71e0e-778b-446c-9e05-31e3f2bd08e7"
-      (reference "J10") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
+      (reference "J10") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal")
     )
     (path "/2cdedd4d-f7aa-4a72-9f63-bad671016006"
       (reference "J11") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
