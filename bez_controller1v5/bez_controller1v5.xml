@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\lkune\OneDrive\Desktop\Robosoccer_PCB\soccer-pcb\bez_controller1v5\bez_controller1v5.kicad_sch</source>
-    <date>5/2/2023 10:03:17 PM</date>
+    <source>C:\Users\lkune\OneDrive\Desktop\Robosoccer_PCB\soccer-pcb2\soccer-pcb\bez_controller1v5\bez_controller1v5.kicad_sch</source>
+    <date>2/27/2024 9:38:28 AM</date>
     <tool>Eeschema (6.0.11)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -618,7 +618,7 @@
       <tstamps>031e2f36-9ce6-4f36-b73a-cdf98359956e</tstamps>
     </comp>
     <comp ref="U10">
-      <value>USBLC6-2SC6</value>
+      <value>USBLC6-4SC6</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
       <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
