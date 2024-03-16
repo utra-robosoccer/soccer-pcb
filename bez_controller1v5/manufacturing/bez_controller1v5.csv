@@ -28,6 +28,6 @@
 "U7, ","1","PX07806-500-S","LM7805_TO220","Package_TO_SOT_THT:TO-220F-3_Vertical","Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220",""
 "U8, ","1","LF50ABV_TO220","LM7805_TO220","Package_TO_SOT_THT:TO-220-3_Vertical","Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220",""
 "U9, ","1","LD1117AS33TR_SOT223","LD1117S12TR_SOT223","Package_TO_SOT_SMD:SOT-223-3_TabPin2","800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT-223",""
-"U10, ","1","USBLC6-4SC6","USBLC6-2SC6","Package_TO_SOT_SMD:SOT-23-6","Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",""
+"U10, ","1","USBLC6-2","USBLC6-2","Package_TO_SOT_SMD:SOT-23-6","Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",""
 "U11, ","1","STM32F446RETx","STM32F446RETx","Package_QFP:LQFP-64_10x10mm_P0.5mm","ARM Cortex-M4 MCU, 512KB flash, 128KB RAM, 180MHz, 1.8-3.6V, 50 GPIO, LQFP-64",""
 "Y1, ","1","8MHz","Crystal","Crystal:Crystal_HC49-U_Vertical","Two pin crystal",""
