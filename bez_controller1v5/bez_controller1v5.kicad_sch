@@ -7189,6 +7189,10 @@
 		(uuid "0c1da17f-d113-4acc-9d35-4e247c335729")
 	)
 	(no_connect
+		(at 104.14 149.86)
+		(uuid "0c8e3e18-c5f7-44f3-b7b5-55301644b0fd")
+	)
+	(no_connect
 		(at 139.7 170.18)
 		(uuid "0f75c376-3d46-4f5d-b311-1f0836cda60b")
 	)
@@ -7197,8 +7201,8 @@
 		(uuid "300df566-b2e2-4ff7-9dd9-959b7f323b0e")
 	)
 	(no_connect
-		(at 139.7 121.92)
-		(uuid "3da2f8e1-66de-4985-8bf2-99451b1a5e3d")
+		(at 104.14 147.32)
+		(uuid "30926699-9c95-4f7f-8bc1-dd71a0b2ec1b")
 	)
 	(no_connect
 		(at 266.7 144.78)
@@ -7275,10 +7279,6 @@
 	(no_connect
 		(at 258.572 45.974)
 		(uuid "cab4a89a-8032-4b51-9dc8-3733ab61a0ba")
-	)
-	(no_connect
-		(at 141.986 147.32)
-		(uuid "edaa5db2-a765-4657-93b4-7d34dbbe317c")
 	)
 	(no_connect
 		(at 234.95 45.72)
@@ -7420,7 +7420,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 132.08) (xy 152.4 132.08)
+			(xy 139.7 132.08) (xy 154.94 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7820,7 +7820,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 137.16) (xy 152.4 137.16)
+			(xy 139.7 137.16) (xy 154.94 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7860,7 +7860,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 129.54) (xy 152.4 129.54)
+			(xy 139.7 129.54) (xy 154.94 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9890,7 +9890,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 134.62) (xy 152.4 134.62)
+			(xy 139.7 134.62) (xy 154.94 134.62)
 		)
 		(stroke
 			(width 0)
@@ -10057,16 +10057,6 @@
 			(type default)
 		)
 		(uuid "ae7eee2d-a583-4994-80ed-69a8c1d09716")
-	)
-	(wire
-		(pts
-			(xy 93.345 147.32) (xy 104.14 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeffd3ae-4a15-4661-863b-c266005fe4ae")
 	)
 	(wire
 		(pts
@@ -10267,16 +10257,6 @@
 			(type default)
 		)
 		(uuid "b938f64c-b990-47f6-a89e-5cbf52b2da9a")
-	)
-	(wire
-		(pts
-			(xy 93.345 149.86) (xy 104.14 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9831b23-1d69-4f62-a07b-f69a1afba4e1")
 	)
 	(wire
 		(pts
@@ -10490,7 +10470,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 147.32) (xy 141.986 147.32)
+			(xy 139.7 147.32) (xy 153.67 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10820,7 +10800,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 127) (xy 152.4 127)
+			(xy 139.7 127) (xy 154.94 127)
 		)
 		(stroke
 			(width 0)
@@ -10860,7 +10840,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 139.7) (xy 152.4 139.7)
+			(xy 139.7 139.7) (xy 154.94 139.7)
 		)
 		(stroke
 			(width 0)
@@ -11120,7 +11100,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 124.46) (xy 152.4 124.46)
+			(xy 139.7 124.46) (xy 154.94 124.46)
 		)
 		(stroke
 			(width 0)
@@ -11187,6 +11167,16 @@
 			(type default)
 		)
 		(uuid "f2d65fe0-2fd3-498d-9db5-8a13b7f4fde7")
+	)
+	(wire
+		(pts
+			(xy 139.7 121.92) (xy 154.94 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39122bb-132e-4d05-92d3-5791c5d9f03d")
 	)
 	(wire
 		(pts
@@ -11760,6 +11750,17 @@
 		)
 		(uuid "26ff8b93-894c-484b-a3ba-cfb0fdcfd995")
 	)
+	(label "V_bat_read"
+		(at 153.67 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "293e012a-cc07-4b5b-881a-9e1fef03d028")
+	)
 	(label "USART3_RX"
 		(at 208.3863 -93.98 180)
 		(fields_autoplaced yes)
@@ -11893,7 +11894,7 @@
 		(uuid "446fb0ec-e4da-4c8e-8063-4ef346342fa6")
 	)
 	(label "USART1_RX"
-		(at 152.4 129.54 180)
+		(at 154.94 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12001,6 +12002,17 @@
 			(justify left bottom)
 		)
 		(uuid "5f8669bd-e86b-495a-853f-24a456080bcc")
+	)
+	(label "V_shunt_read"
+		(at 154.94 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62e70bf9-1935-4039-9603-f05732ff4add")
 	)
 	(label "GPIO3"
 		(at 93.98 177.8 0)
@@ -12146,7 +12158,7 @@
 		(uuid "8a4d0abe-f95c-4578-8689-718ac1413b36")
 	)
 	(label "TMS"
-		(at 152.4 137.16 180)
+		(at 154.94 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12166,17 +12178,6 @@
 			(justify left bottom)
 		)
 		(uuid "92be4c5d-9c90-4389-a56f-ec5f00fc2add")
-	)
-	(label "V_shunt_read"
-		(at 93.345 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "96ec0527-a9ce-48fe-ab99-c4da4f42ce15")
 	)
 	(label "MOTOR_DATA3"
 		(at 245.11 -102.235 0)
@@ -12212,7 +12213,7 @@
 		(uuid "9fb0cb09-9ce0-4919-a62c-4465c9bb775d")
 	)
 	(label "TCK"
-		(at 152.4 139.7 180)
+		(at 154.94 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12232,17 +12233,6 @@
 			(justify left bottom)
 		)
 		(uuid "a2a219c6-8b97-40c7-9159-fe2594e28edb")
-	)
-	(label "V_bat_read"
-		(at 93.345 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6caab86-6f0d-4482-ab20-328d6235b20a")
 	)
 	(label "USART6_TX"
 		(at 93.345 160.02 0)
@@ -12300,7 +12290,7 @@
 		(uuid "b5787545-481a-4931-b0dd-f66afd67c233")
 	)
 	(label "USB_D+"
-		(at 152.4 134.62 180)
+		(at 154.94 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12344,7 +12334,7 @@
 		(uuid "bd9efa23-4c3e-4621-bfe8-028c1c04608f")
 	)
 	(label "USART1_DIR"
-		(at 152.4 124.46 180)
+		(at 154.94 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12366,7 +12356,7 @@
 		(uuid "bf3dda90-8ae8-401e-8ff6-494ad125dbc1")
 	)
 	(label "USB_D-"
-		(at 152.4 132.08 180)
+		(at 154.94 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12454,7 +12444,7 @@
 		(uuid "e878930f-3325-4afc-9af3-0ebd47bd5de2")
 	)
 	(label "USART1_TX"
-		(at 152.4 127 180)
+		(at 154.94 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
