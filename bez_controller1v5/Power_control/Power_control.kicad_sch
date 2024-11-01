@@ -1219,6 +1219,12 @@
 		)
 	)
 	(junction
+		(at 82.55 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02522df4-3b1c-45c0-a9ca-12ba62255b88")
+	)
+	(junction
 		(at 77.47 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1231,10 +1237,10 @@
 		(uuid "1aa3f07a-a677-4fde-b507-283219d233fe")
 	)
 	(junction
-		(at 87.63 106.68)
+		(at 69.85 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9222a7bb-b68f-4f36-97cb-0444543af443")
+		(uuid "24cc91dd-6476-46f3-baee-24128c0df0cb")
 	)
 	(junction
 		(at 69.85 93.98)
@@ -1243,16 +1249,22 @@
 		(uuid "a20b911a-e51b-4fe0-8102-114c443629eb")
 	)
 	(junction
-		(at 87.63 99.06)
+		(at 85.09 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bfff3b91-9409-4053-a4a2-c86af7a53e53")
+		(uuid "a423f973-98a1-45a3-aa44-3f83e67f0898")
 	)
 	(junction
-		(at 69.85 87.63)
+		(at 85.09 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2f34dd2-45d5-4557-8246-769485af0103")
+		(uuid "c85a8bae-86e8-4b87-8713-508647cca82f")
+	)
+	(junction
+		(at 85.09 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4fd6192-4c54-47c8-bcd9-081d10da4f8d")
 	)
 	(junction
 		(at 92.71 52.07)
@@ -1262,17 +1274,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 106.68) (xy 87.63 114.3)
+			(xy 85.09 99.06) (xy 90.17 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0779393e-069e-4856-8565-0418945e20b8")
+		(uuid "0a3ab780-50e8-4e88-9b60-e69254b3337f")
 	)
 	(wire
 		(pts
-			(xy 87.63 106.68) (xy 87.63 99.06)
+			(xy 85.09 99.06) (xy 85.09 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1292,13 +1304,33 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 87.63) (xy 63.5 87.63)
+			(xy 82.55 111.76) (xy 82.55 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3205e902-ce05-4e6e-8a1f-422cbf3eba16")
+		(uuid "335c8b13-c410-4fde-9148-b4ec0ebdc648")
+	)
+	(wire
+		(pts
+			(xy 82.55 114.3) (xy 82.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401c92c8-5610-49da-917a-4c0816611a3a")
+	)
+	(wire
+		(pts
+			(xy 97.79 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41824fb9-214e-46d4-8d6b-9ea0fb0a353f")
 	)
 	(wire
 		(pts
@@ -1322,23 +1354,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 99.06) (xy 87.63 99.06)
+			(xy 77.47 99.06) (xy 85.09 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5713a4b8-8bbe-4c20-beb5-62b78be3a884")
-	)
-	(wire
-		(pts
-			(xy 97.79 99.06) (xy 124.46 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6694ae91-f748-4cc9-bc55-d8d11db3ee17")
 	)
 	(wire
 		(pts
@@ -1352,6 +1374,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 85.09) (xy 69.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f552fcc-9b1a-430d-b5a0-f869c54a1193")
+	)
+	(wire
+		(pts
 			(xy 69.85 87.63) (xy 77.47 87.63)
 		)
 		(stroke
@@ -1362,13 +1394,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 99.06) (xy 90.17 99.06)
+			(xy 121.92 101.6) (xy 124.46 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "744dde21-ca05-447e-836b-7b4d9383817b")
+		(uuid "77bed4a4-5071-4a7f-8b7c-0fa1c134ac27")
+	)
+	(wire
+		(pts
+			(xy 85.09 114.3) (xy 85.09 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe43ac4-a3dd-46b4-8595-34da3c1586b9")
 	)
 	(wire
 		(pts
@@ -1382,6 +1424,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 114.3) (xy 85.09 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ba9d5d-d3f9-4d13-9234-d36cbd0517ef")
+	)
+	(wire
+		(pts
 			(xy 77.47 87.63) (xy 77.47 99.06)
 		)
 		(stroke
@@ -1389,16 +1441,6 @@
 			(type default)
 		)
 		(uuid "9373c7a2-a55a-446a-9f25-c3ee63215502")
-	)
-	(wire
-		(pts
-			(xy 87.63 106.68) (xy 95.25 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96fb1f5c-ba6d-42c3-9ca5-4e60aedb6fa2")
 	)
 	(wire
 		(pts
@@ -1422,6 +1464,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 106.68) (xy 85.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d24db7-c258-4f0e-87af-a5a141536f43")
+	)
+	(wire
+		(pts
 			(xy 81.28 52.07) (xy 77.47 52.07)
 		)
 		(stroke
@@ -1429,6 +1481,16 @@
 			(type default)
 		)
 		(uuid "aab65265-ee45-4e35-a1b7-7dcc18f33a5c")
+	)
+	(wire
+		(pts
+			(xy 85.09 114.3) (xy 90.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1fded8-1e60-43e5-ba73-45d3c888e87e")
 	)
 	(wire
 		(pts
@@ -1442,13 +1504,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 109.22) (xy 95.25 114.3)
+			(xy 85.09 109.22) (xy 90.17 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7db1872-2618-44c2-8bd6-a7e7f2a2d01d")
+		(uuid "b8a73ed6-09d6-4f51-80b8-f6cf7d5ba92e")
 	)
 	(wire
 		(pts
@@ -1472,23 +1534,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 85.09) (xy 63.5 85.09)
+			(xy 60.96 87.63) (xy 69.85 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8e70795-aa31-498c-88f9-3eef96020093")
-	)
-	(wire
-		(pts
-			(xy 121.92 101.6) (xy 124.46 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d91499bd-ee58-42ac-a8b1-0b9ac6fa182a")
+		(uuid "e27fa618-c2ef-4efd-895d-c6ace08a2428")
 	)
 	(wire
 		(pts
@@ -1519,6 +1571,26 @@
 			(type default)
 		)
 		(uuid "e558ba99-7b83-4534-893e-a335cf5960dd")
+	)
+	(wire
+		(pts
+			(xy 85.09 106.68) (xy 90.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3fad89b-ba14-490c-9e5f-eb38446e6908")
+	)
+	(wire
+		(pts
+			(xy 82.55 111.76) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9fbd7e9-9c1b-42d8-8586-a49748891f6e")
 	)
 	(label "PMOS"
 		(at 77.47 80.01 0)
@@ -1599,16 +1671,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 58.42 87.63 180)
+		(at 55.88 85.09 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b7c5e9f-a62e-443b-b738-566ab0e70400")
 		(property "Reference" "J1"
-			(at 58.42 78.105 0)
+			(at 52.07 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,7 +1688,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 58.42 80.645 0)
+			(at 42.926 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1696,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
-			(at 58.42 87.63 0)
+			(at 55.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,7 +1705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 87.63 0)
+			(at 55.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1714,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 87.63 0)
+			(at 55.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1874,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 114.3 0)
+		(at 85.09 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1811,7 +1883,7 @@
 		(fields_autoplaced yes)
 		(uuid "74ba0832-e35e-4770-bfec-f2c663ee6eb6")
 		(property "Reference" "#PWR05"
-			(at 95.25 120.65 0)
+			(at 85.09 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1892,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 119.38 0)
+			(at 85.09 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,7 +1900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 114.3 0)
+			(at 85.09 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 114.3 0)
+			(at 85.09 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 114.3 0)
+			(at 85.09 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,16 +2141,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 100.33 106.68 0)
+		(at 95.25 109.22 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7cc5ebe-f2a3-4070-90fe-052d80b26cdd")
 		(property "Reference" "Jetson1"
-			(at 102.87 106.6799 0)
+			(at 97.79 109.2201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2159,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 102.87 109.2199 0)
+			(at 97.79 106.6801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2168,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
-			(at 100.33 106.68 0)
+			(at 95.25 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2177,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 106.68 0)
+			(at 95.25 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 106.68 0)
+			(at 95.25 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,16 +2276,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 129.54 99.06 0)
+		(at 129.54 101.6 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cfc395d0-ac8c-4bbd-9b4e-86e6322886dc")
 		(property "Reference" "STM32"
-			(at 132.08 99.0599 0)
+			(at 132.08 101.6001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2294,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 132.08 101.5999 0)
+			(at 132.08 99.0601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2303,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
-			(at 129.54 99.06 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +2312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 99.06 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 99.06 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2481,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 87.63 114.3 180)
+		(at 81.28 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2418,7 +2490,7 @@
 		(fields_autoplaced yes)
 		(uuid "f37cf2cc-d897-478c-b936-51564f7aaa88")
 		(property "Reference" "#PWR03"
-			(at 87.63 110.49 0)
+			(at 85.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2499,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 87.63 119.38 0)
+			(at 80.01 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 114.3 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 114.3 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 87.63 114.3 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
