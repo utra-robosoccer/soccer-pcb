@@ -285,6 +285,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -381,6 +382,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "56259e4c-5c8f-4073-95b8-1c3757b66f06",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
