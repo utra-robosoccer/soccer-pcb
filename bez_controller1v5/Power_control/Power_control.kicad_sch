@@ -760,43 +760,32 @@
 				)
 			)
 		)
-		(symbol "PS1024ALRED:PS1024ALRED"
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S"
-				(at -5.08 6.35 0)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "PS1024ALRED"
-				(at -5.08 -5.08 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "PS1024ALRED:SW_PS1024ALRED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Footprint" ""
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -804,7 +793,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -813,52 +811,21 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "C"
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "26.6 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "E-Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "PS1024ALRED_0_0"
+			(symbol "SW_Push_0_1"
 				(circle
-					(center -2.54 0)
-					(radius 0.254)
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -867,10 +834,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 1.27) (xy 0 1.27)
+						(xy 0 1.27) (xy 0 3.048)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -879,22 +846,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 5.08)
+						(xy 2.54 1.27) (xy -2.54 1.27)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -902,10 +857,10 @@
 					)
 				)
 				(circle
-					(center 2.54 0)
-					(radius 0.254)
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -913,37 +868,37 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1303,13 +1258,7 @@
 		(at 92.71 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e66fb0b8-9052-456d-a491-ab533da8a640")
-	)
-	(junction
-		(at 81.28 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f296b718-033d-420b-849b-b7f17457584f")
+		(uuid "e7bb2fc3-7350-4c99-a61b-c74ec838e1cd")
 	)
 	(wire
 		(pts
@@ -1323,16 +1272,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 52.07) (xy 81.28 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07f6e854-5824-4fb5-9dcb-6745fe2f0669")
-	)
-	(wire
-		(pts
 			(xy 87.63 106.68) (xy 87.63 99.06)
 		)
 		(stroke
@@ -1340,6 +1279,16 @@
 			(type default)
 		)
 		(uuid "0eecfe98-9645-45ce-90e5-26adbbc06bee")
+	)
+	(wire
+		(pts
+			(xy 120.65 52.07) (xy 118.11 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12965482-0552-4167-b9b5-e0f338073df7")
 	)
 	(wire
 		(pts
@@ -1353,16 +1302,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 52.07) (xy 107.95 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3417edbd-fd69-4c33-8687-3e4f7fb9120b")
-	)
-	(wire
-		(pts
 			(xy 69.85 93.98) (xy 69.85 97.79)
 		)
 		(stroke
@@ -1373,13 +1312,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 52.07) (xy 118.11 52.07)
+			(xy 92.71 52.07) (xy 92.71 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "457658fa-5f40-4dd9-b79a-bd18bac69c4f")
+		(uuid "4b604404-aee3-4384-8958-423e738618fe")
 	)
 	(wire
 		(pts
@@ -1400,6 +1339,16 @@
 			(type default)
 		)
 		(uuid "6694ae91-f748-4cc9-bc55-d8d11db3ee17")
+	)
+	(wire
+		(pts
+			(xy 106.68 52.07) (xy 110.49 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab0bdd1-07b9-4b61-afef-9b1993ff2c98")
 	)
 	(wire
 		(pts
@@ -1460,6 +1409,16 @@
 			(type default)
 		)
 		(uuid "9b36ec3e-e23f-4f7c-ba04-689b3e3f2e77")
+	)
+	(wire
+		(pts
+			(xy 92.71 52.07) (xy 96.52 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22eb948-f631-4c9c-b4c7-e4b06b64bcbd")
 	)
 	(wire
 		(pts
@@ -1561,16 +1520,6 @@
 		)
 		(uuid "e558ba99-7b83-4534-893e-a335cf5960dd")
 	)
-	(wire
-		(pts
-			(xy 92.71 58.42) (xy 92.71 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8d27612-c71a-4ca4-b281-7b85334eda74")
-	)
 	(label "PMOS"
 		(at 77.47 80.01 0)
 		(fields_autoplaced yes)
@@ -1643,115 +1592,6 @@
 			(project "Power_control"
 				(path "/56259e4c-5c8f-4073-95b8-1c3757b66f06"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PS1024ALRED:PS1024ALRED")
-		(at 100.33 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46a95aaf-f3a1-435e-be16-b21d954fb614")
-		(property "Reference" "S1"
-			(at 100.33 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PS1024ALRED"
-			(at 100.33 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PS1024ALRED:SW_PS1024ALRED"
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "C"
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "26.6 mm"
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "E-Switch"
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a740bcf8-9fcc-45aa-82bd-705a24e27abd")
-		)
-		(pin "2"
-			(uuid "fd5ea8d1-e3cf-40b9-b19d-768331791c2b")
-		)
-		(instances
-			(project "Power_control"
-				(path "/56259e4c-5c8f-4073-95b8-1c3757b66f06"
-					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -1918,7 +1758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 85.09 53.848 90)
 			(effects
 				(font
@@ -2028,7 +1868,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 52.07 90)
+		(at 120.65 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2037,7 +1877,7 @@
 		(fields_autoplaced yes)
 		(uuid "92c0a83c-6bdf-4fa4-8a22-87ad01beb019")
 		(property "Reference" "#PWR04"
-			(at 124.46 52.07 0)
+			(at 127 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +1886,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 52.0699 90)
+			(at 124.46 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +1895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 52.07 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +1904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 52.07 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +1913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 52.07 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,6 +1928,74 @@
 			(project "Power_control"
 				(path "/56259e4c-5c8f-4073-95b8-1c3757b66f06"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 101.6 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfddc30a-f390-4ad7-b399-86f88892ebc3")
+		(property "Reference" "SW1"
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GPB040B05BR"
+			(at 101.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:GPB040B05BR"
+			(at 101.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 101.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80123390-b2f6-4119-aa35-eb37d25de2cb")
+		)
+		(pin "2"
+			(uuid "26b879a5-d864-4e6f-bc6d-cf3133e0956a")
+		)
+		(instances
+			(project ""
+				(path "/56259e4c-5c8f-4073-95b8-1c3757b66f06"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -2169,7 +2077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7cc5ebe-f2a3-4070-90fe-052d80b26cdd")
-		(property "Reference" "Jetson"
+		(property "Reference" "Jetson1"
 			(at 102.87 106.6799 0)
 			(effects
 				(font
@@ -2223,7 +2131,7 @@
 		(instances
 			(project "Power_control"
 				(path "/56259e4c-5c8f-4073-95b8-1c3757b66f06"
-					(reference "Jetson")
+					(reference "Jetson1")
 					(unit 1)
 				)
 			)
@@ -2366,7 +2274,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 113.03 52.07 90)
+		(at 114.3 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2375,7 +2283,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee4caf7d-9c31-4c50-a8a2-f7107589f8a9")
 		(property "Reference" "R2"
-			(at 113.03 45.72 90)
+			(at 114.3 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,15 +2291,15 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 113.03 48.26 90)
+			(at 114.3 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.03 53.848 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 114.3 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2308,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 52.07 0)
+			(at 114.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2317,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 113.03 52.07 0)
+			(at 114.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +2500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TRAN_IRF4905STRLPBF_INF"
+		(property "Footprint" "Library:IRF4905"
 			(at 95.25 58.42 0)
 			(effects
 				(font
