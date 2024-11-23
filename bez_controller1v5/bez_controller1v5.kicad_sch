@@ -6318,6 +6318,185 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:PXO7806-500-M-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ".1"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -3.556 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "PXO7806-500-M-TR"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
+				(at -2.286 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PXO7806-500-M-TR_0_0"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PXO7806-500-M-TR_1_0"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_names
@@ -7526,12 +7705,6 @@
 		(uuid "7f425cdf-ab1f-4636-8d7b-2c3ace2a5ec8")
 	)
 	(junction
-		(at 36.83 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fbb1a50-1102-4ae2-913d-40a6445bf957")
-	)
-	(junction
 		(at 43.18 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7686,6 +7859,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccd3bea1-d59c-4eea-903c-13e31a4db513")
+	)
+	(junction
+		(at 35.56 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6b93134-b575-41c9-ab88-4cd24e899f7a")
 	)
 	(junction
 		(at 69.85 -52.07)
@@ -8947,6 +9126,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 68.58) (xy 45.085 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c9fe81-1308-425e-a51a-7dd40335eefd")
+	)
+	(wire
+		(pts
 			(xy 234.95 -102.235) (xy 267.97 -102.235)
 		)
 		(stroke
@@ -9397,6 +9586,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.305 52.07) (xy 27.305 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65379c4f-af06-48ce-9a75-58f04c0b1610")
+	)
+	(wire
+		(pts
 			(xy 121.92 96.52) (xy 121.92 99.06)
 		)
 		(stroke
@@ -9537,7 +9736,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.305 57.15) (xy 29.21 57.15)
+			(xy 27.305 52.07) (xy 27.94 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9647,7 +9846,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 57.15) (xy 45.085 57.15)
+			(xy 43.18 52.07) (xy 45.085 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9744,6 +9943,16 @@
 			(type default)
 		)
 		(uuid "74f82b9e-0999-44d3-9474-0a4d81ddf90d")
+	)
+	(wire
+		(pts
+			(xy 45.085 52.07) (xy 45.085 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7516dd7a-c905-4108-b7d3-7efbfc1e168e")
 	)
 	(wire
 		(pts
@@ -10087,7 +10296,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 64.77) (xy 36.83 68.58)
+			(xy 35.56 59.69) (xy 35.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -10917,7 +11126,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.305 68.58) (xy 36.83 68.58)
+			(xy 27.305 68.58) (xy 35.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -11794,16 +12003,6 @@
 			(type default)
 		)
 		(uuid "edd7cad8-e0b3-4708-85a2-703ab7a04633")
-	)
-	(wire
-		(pts
-			(xy 36.83 68.58) (xy 45.085 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee4ae790-af4b-42fa-90fb-aa546d3daccc")
 	)
 	(wire
 		(pts
@@ -14051,78 +14250,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM7805_TO220")
-		(at 36.83 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a86c3b5-f87f-452b-9306-305d2fc0d080")
-		(property "Reference" "U1"
-			(at 36.83 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PX07806-500-S"
-			(at 36.83 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Vertical"
-			(at 36.83 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5495ee5-1f8d-4efc-90ee-1ad5d4a0acb9")
-		)
-		(pin "2"
-			(uuid "58b9c256-dd7f-422f-88b1-f128c45237ec")
-		)
-		(pin "3"
-			(uuid "30a0a10c-07ba-4e89-9236-7269214e4aea")
-		)
-		(instances
-			(project "bez_controller1v5"
-				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 86.36 -111.76 0)
 		(unit 1)
@@ -14834,6 +14961,128 @@
 			(project "bez_controller1v5"
 				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:PXO7806-500-M-TR")
+		(at 35.56 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ddda52c-bfec-4534-848b-d0e8c8b67adb")
+		(property "Reference" "U1"
+			(at 35.052 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 32.004 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KiCad:CONV_PXO7806-500-M-TR"
+			(at 39.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 39.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "PXO7806-500-M-TR"
+			(at 35.56 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 39.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 33.274 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 39.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "befb11c6-8d2e-40d4-8f5c-4ff2bab36830")
+		)
+		(pin "3"
+			(uuid "4b9cb7f1-d59b-47b0-966e-5e6f491ce35b")
+		)
+		(pin "4"
+			(uuid "3df6a434-4049-4875-b25e-6605cff2ee3b")
+		)
+		(instances
+			(project ""
+				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
+					(reference "U1")
 					(unit 1)
 				)
 			)
