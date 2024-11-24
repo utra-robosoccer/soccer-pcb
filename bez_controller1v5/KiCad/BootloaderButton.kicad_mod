@@ -1,0 +1,146 @@
+(footprint "BootloaderButton"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "60611dd9-a205-4bee-8281-78b8fa574c76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BootloaderButton"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7259f931-4b0a-4c35-8b7f-26af4e1b1154")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "421b3399-2165-4d94-bda5-2439ddd6e89f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0dbeebf0-5855-434b-b9f2-52e1699f5718")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31ebc6c7-3cd8-4a81-936a-3263a5543d74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5 -4)
+		(end 5 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c3bb3bbc-7741-457b-922b-a9e4f6c4370a")
+	)
+	(fp_line
+		(start -5 -1.5)
+		(end -5 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c99cb8f-e64d-44cb-9836-a7ccf2a57cb1")
+	)
+	(fp_line
+		(start 5 -4)
+		(end 5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1f3a8db-c0a9-465c-a75b-234ac205e3ec")
+	)
+	(fp_line
+		(start 5 -1.5)
+		(end -5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ea0e23fc-8822-4cec-9bc1-926090e866f2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e1cdf8d5-d4bd-4c23-8167-423021cfe991")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.5 -2.81)
+		(size 1.75 1.75)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f0fb2714-87f5-47d9-87b4-279b1e1955ba")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.81)
+		(size 1.75 1.75)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b62d1ce3-b755-4087-bf5c-74839d4d41a5")
+	)
+	(pad "3" thru_hole circle
+		(at 3.5 -2.81)
+		(size 1.75 1.75)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b646b520-0de3-4c40-84b3-eccb148c12ac")
+	)
+)

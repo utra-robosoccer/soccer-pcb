@@ -15731,7 +15731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "KiCad:BootloaderButton"
 			(at 76.2 116.84 0)
 			(effects
 				(font
