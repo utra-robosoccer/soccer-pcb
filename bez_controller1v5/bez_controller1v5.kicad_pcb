@@ -22488,6 +22488,19 @@
 		(layer "Edge.Cuts")
 		(uuid "c2a3e823-8970-4f05-ac88-3117b0bc5c9d")
 	)
+	(gr_text "Bez2 Controller\nChae\nMike\nArshiya"
+		(at 88.8 81 0)
+		(layer "F.SilkS")
+		(uuid "0916b7ca-a3bd-4bc5-809b-9059ecdc55ef")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "U1"
 		(at 173.5 85 90)
 		(layer "F.SilkS")
