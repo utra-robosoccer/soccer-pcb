@@ -510,6 +510,598 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_MiniMELF"
+		(layer "F.Cu")
+		(uuid "064e6ca6-e1b8-4819-ac29-49e32bbd042c")
+		(at 118.2 58.4 -90)
+		(descr "Diode Mini-MELF (SOD-80)")
+		(tags "Diode Mini-MELF (SOD-80)")
+		(property "Reference" "D6"
+			(at 0.8 2.1 90)
+			(layer "F.SilkS")
+			(uuid "e3a9eb92-9916-4838-9078-7206063e63cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BZV55B5V1"
+			(at 0 2 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d4ea0e6-e7ac-484f-9a93-9e26cf6256e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1150eeb1-2add-420f-93f9-5200b0520adc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2438af1-9019-4822-a805-2e15226ae32c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e64a4c06-e116-4fd4-948b-a729f36b7adc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*MiniMELF*")
+		(path "/814db137-f4c9-4e78-9565-06ceae1963ad")
+		(sheetname "Root")
+		(sheetfile "bez_controller1v5.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.66 1.11)
+			(end 1.75 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0234bd56-fe49-4f46-a4fb-0a84d0f041a1")
+		)
+		(fp_line
+			(start -2.66 -1.11)
+			(end -2.66 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bf963970-0e41-405a-b0f2-50bca7327303")
+		)
+		(fp_line
+			(start 1.75 -1.11)
+			(end -2.66 -1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "74bb0b2f-e327-4478-8b33-a9069f886bf9")
+		)
+		(fp_line
+			(start -2.65 1.1)
+			(end -2.65 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "93ad0e0a-a1b1-4ebd-a839-48a47864abca")
+		)
+		(fp_line
+			(start 2.65 1.1)
+			(end -2.65 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7d332357-5fde-47af-9df6-2c765e93b2e8")
+		)
+		(fp_line
+			(start -2.65 -1.1)
+			(end 2.65 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e169b8fb-9582-4485-a6ed-60bb0104b419")
+		)
+		(fp_line
+			(start 2.65 -1.1)
+			(end 2.65 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e8ed1573-da2a-4f2a-8e02-66f03f758aa2")
+		)
+		(fp_line
+			(start -1.65 0.8)
+			(end -1.65 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "99deab07-46d3-4fa2-9ac4-db3d5d66e404")
+		)
+		(fp_line
+			(start 1.65 0.8)
+			(end -1.65 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2606911f-7446-4fb8-8a76-baff4157db33")
+		)
+		(fp_line
+			(start 0.25 0.4)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "86482833-8f06-45bc-b029-245d17eb0692")
+		)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1775e2e1-0133-4d57-9f62-46b3687e0a8e")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0d142dee-3909-4c27-8da1-001d0814811e")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "74d3fb04-b855-4e74-bc3a-a401efc3a18d")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7e85c0c6-bf44-4f09-9465-b7db4cdd1025")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "75bf1a9d-50dc-49ff-8052-5450221e8dce")
+		)
+		(fp_line
+			(start 0.25 -0.4)
+			(end 0.25 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "69060820-e63d-4366-8a04-c6b7696635c5")
+		)
+		(fp_line
+			(start -1.65 -0.8)
+			(end 1.65 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d2342725-f3a4-4271-95fd-9bf565112483")
+		)
+		(fp_line
+			(start 1.65 -0.8)
+			(end 1.65 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "40830a3a-9c3a-441b-9817-c851ad230eaf")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 90)
+			(layer "F.Fab")
+			(uuid "4816c3ec-3e66-41a2-a3ec-a544336ee0bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.75 0 270)
+			(size 1.3 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1923076923)
+			(net 17 "/MOTOR_DATA6")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "5029e073-aa2e-4b2e-9947-b905ce55a19d")
+		)
+		(pad "2" smd roundrect
+			(at 1.75 0 270)
+			(size 1.3 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1923076923)
+			(net 1 "GND")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "d5aa0911-484b-42de-a333-5656e8e6acf8")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_MiniMELF"
+		(layer "F.Cu")
+		(uuid "075e061d-0fb0-486b-9558-3f1a42910459")
+		(at 161.5 58.45 -90)
+		(descr "Diode Mini-MELF (SOD-80)")
+		(tags "Diode Mini-MELF (SOD-80)")
+		(property "Reference" "D5"
+			(at 1.55 2.2 90)
+			(layer "F.SilkS")
+			(uuid "58b240dd-259b-43e0-b2b2-542289660d31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BZV55B5V1"
+			(at 0 2 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9f51847-0958-4d99-9c4f-c22f6fddece3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72a1fc43-0254-4367-ab43-d99774eb50ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ab3da8e-820b-467d-b874-b25dc7cceb8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a39066e9-111f-47f0-afd5-a3d5af8e69b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*MiniMELF*")
+		(path "/3b76bcd3-ee55-4e8f-a135-9736330c4268")
+		(sheetname "Root")
+		(sheetfile "bez_controller1v5.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.66 1.11)
+			(end 1.75 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9d7526c1-be2a-4daf-8adb-8ec62cb15b9a")
+		)
+		(fp_line
+			(start -2.66 -1.11)
+			(end -2.66 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9f451af-6437-4ac6-a638-08a5ebec7a51")
+		)
+		(fp_line
+			(start 1.75 -1.11)
+			(end -2.66 -1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5a6d6b34-017d-484b-b901-d5bc310015e7")
+		)
+		(fp_line
+			(start -2.65 1.1)
+			(end -2.65 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3f8e2cbb-2f27-4a7f-b4bb-9407d231fdb0")
+		)
+		(fp_line
+			(start 2.65 1.1)
+			(end -2.65 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e6630018-7395-4394-ba85-ae412ec4f09c")
+		)
+		(fp_line
+			(start -2.65 -1.1)
+			(end 2.65 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4cccafe3-cac2-4f52-a025-a57624a5cfd7")
+		)
+		(fp_line
+			(start 2.65 -1.1)
+			(end 2.65 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f45bf765-f76b-4799-9485-161a2a8a866f")
+		)
+		(fp_line
+			(start -1.65 0.8)
+			(end -1.65 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "01bd41e6-9656-4aa0-b387-ac761e0ff296")
+		)
+		(fp_line
+			(start 1.65 0.8)
+			(end -1.65 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9624b0e0-4f8b-4439-85b7-b93649df5697")
+		)
+		(fp_line
+			(start 0.25 0.4)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "58581987-5693-4563-808e-a8766b017861")
+		)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fd7edd0b-f8cb-40cc-9fc6-d216bb0267d3")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d6bdb56-de16-4ad9-9355-96f0630bc05e")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "73285cb8-ed6b-46d3-8826-feb7d3adb8e4")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1b4c2e56-d4c0-4093-ac8c-127c9ce44dcd")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "068ca4d1-ad9a-4f7a-94de-0ae4b8e3ba25")
+		)
+		(fp_line
+			(start 0.25 -0.4)
+			(end 0.25 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "504a7b2a-4b8f-4189-8364-63475c806e4b")
+		)
+		(fp_line
+			(start -1.65 -0.8)
+			(end 1.65 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "92b753ad-efb0-4f6c-a3d2-90b1f72ec4fb")
+		)
+		(fp_line
+			(start 1.65 -0.8)
+			(end 1.65 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ae7b9a99-d1ab-4ba8-9ad3-ec90e30c6ccd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 90)
+			(layer "F.Fab")
+			(uuid "bd77eeb6-a069-47f0-bd32-41e96e7643ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.75 0 270)
+			(size 1.3 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1923076923)
+			(net 14 "/MOTOR_DATA3")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "03dc1a47-e9f0-43b2-a4f6-96fbf65990e0")
+		)
+		(pad "2" smd roundrect
+			(at 1.75 0 270)
+			(size 1.3 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1923076923)
+			(net 1 "GND")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "4fc66b79-3c1f-49da-9a92-b934d75a3c48")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0de832d5-058b-40a9-9e64-18697730d078")
@@ -1479,6 +2071,302 @@
 			(uuid "48156b91-0ff1-4c36-a579-e803fce16a98")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2010_5025Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_MiniMELF"
+		(layer "F.Cu")
+		(uuid "17abbeaf-414c-48b0-9146-6653ef646ed7")
+		(at 176.1 58.25 -90)
+		(descr "Diode Mini-MELF (SOD-80)")
+		(tags "Diode Mini-MELF (SOD-80)")
+		(property "Reference" "D10"
+			(at 0.95 2.1 90)
+			(layer "F.SilkS")
+			(uuid "28c6aead-19cd-4ed3-9a78-dcb61a272528")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BZV55B5V1"
+			(at 0 2 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c11b557-c762-47cf-90d7-a88c11264da1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "134f2cfa-fd3d-46cc-a3b3-67a82f213617")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "907c393a-f62c-4907-b22e-2a729a316d8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92431ba5-e9b4-478d-b05d-bb9aa4c516fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*MiniMELF*")
+		(path "/927f1e71-4390-49f6-810e-94a1e2ec0b80")
+		(sheetname "Root")
+		(sheetfile "bez_controller1v5.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.66 1.11)
+			(end 1.75 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c55f01de-bd26-4988-8fff-f65c82be5538")
+		)
+		(fp_line
+			(start -2.66 -1.11)
+			(end -2.66 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "91d0ef6d-efb8-48a5-bce5-84aca62124af")
+		)
+		(fp_line
+			(start 1.75 -1.11)
+			(end -2.66 -1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d39bd99-fbef-43f6-96cf-183734d5fc6f")
+		)
+		(fp_line
+			(start -2.65 1.1)
+			(end -2.65 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e212e986-50ef-4fc2-9e2d-7f76594403ce")
+		)
+		(fp_line
+			(start 2.65 1.1)
+			(end -2.65 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "106b8cd6-2f7c-4862-853a-7d82f0cfa6de")
+		)
+		(fp_line
+			(start -2.65 -1.1)
+			(end 2.65 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5d48549b-2177-4c72-ae48-17bb8d6bde1a")
+		)
+		(fp_line
+			(start 2.65 -1.1)
+			(end 2.65 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "400d681b-0dad-4e35-8eca-72670e758715")
+		)
+		(fp_line
+			(start -1.65 0.8)
+			(end -1.65 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "27f2162e-f317-4529-8d69-bac1a62cffb5")
+		)
+		(fp_line
+			(start 1.65 0.8)
+			(end -1.65 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e7a03170-0ef9-444b-b1c3-05c884f854b2")
+		)
+		(fp_line
+			(start 0.25 0.4)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6d96fc18-9707-44f3-a0df-32e509baf127")
+		)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a616676c-2e81-4bdb-9024-56fdfd943e39")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "44d24182-e762-458d-b7b7-66c3d3f47bf3")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f6edc426-423c-4a11-8688-c3bd9e477c03")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "25c1a763-e0f9-49fb-bf35-567054a59696")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6550bba2-586c-4592-a73f-44bae7bfa2c6")
+		)
+		(fp_line
+			(start 0.25 -0.4)
+			(end 0.25 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "455bdc15-c02d-425d-814b-57b04fd8a7f6")
+		)
+		(fp_line
+			(start -1.65 -0.8)
+			(end 1.65 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "70547824-06f3-428f-84c2-5e8823eef1e0")
+		)
+		(fp_line
+			(start 1.65 -0.8)
+			(end 1.65 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d1e4219d-d85b-4230-98fc-c19288dd8b95")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 90)
+			(layer "F.Fab")
+			(uuid "a76f3732-a224-4bee-b1bb-bb0d15c3e1b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.75 0 270)
+			(size 1.3 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1923076923)
+			(net 13 "/MOTOR_DATA2")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "c6e915cb-277a-4b01-b348-3968ac02d98c")
+		)
+		(pad "2" smd roundrect
+			(at 1.75 0 270)
+			(size 1.3 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1923076923)
+			(net 1 "GND")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "9a609cc6-8ff9-473e-a8f8-4d86d09bd946")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5309,6 +6197,302 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_MiniMELF"
+		(layer "F.Cu")
+		(uuid "4760357d-fdd1-4227-8597-e3bce8b2096a")
+		(at 147.3 58.2 -90)
+		(descr "Diode Mini-MELF (SOD-80)")
+		(tags "Diode Mini-MELF (SOD-80)")
+		(property "Reference" "D9"
+			(at 1.2 2.15 90)
+			(layer "F.SilkS")
+			(uuid "4fdf279e-18ff-439f-a0df-42130e72b2dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BZV55B5V1"
+			(at 0 2 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51d37066-13e5-4263-a9f9-f96c73b9dafa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02db3d8a-1047-4bd7-8089-e11b952ccbc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1c379c5-652b-4c34-8b58-e5d3c7163864")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94029ef7-50c2-4314-a203-e11f3fe08fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*MiniMELF*")
+		(path "/2e209ffd-2887-49a6-ac12-302e7415160a")
+		(sheetname "Root")
+		(sheetfile "bez_controller1v5.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.66 1.11)
+			(end 1.75 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ed55c3b5-48fa-4223-ab6d-a1588a9d19d3")
+		)
+		(fp_line
+			(start -2.66 -1.11)
+			(end -2.66 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3358d977-5043-4f84-9452-63f678e149b0")
+		)
+		(fp_line
+			(start 1.75 -1.11)
+			(end -2.66 -1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3779b9c2-9516-46fd-af04-f89ad02227b2")
+		)
+		(fp_line
+			(start -2.65 1.1)
+			(end -2.65 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cb41a710-5d9b-49c0-828f-45bdd634fc60")
+		)
+		(fp_line
+			(start 2.65 1.1)
+			(end -2.65 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8e87f92e-6ed5-4e3c-9812-78edb851e3e4")
+		)
+		(fp_line
+			(start -2.65 -1.1)
+			(end 2.65 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fa2e0714-d132-4a03-b8fe-7ca83c354368")
+		)
+		(fp_line
+			(start 2.65 -1.1)
+			(end 2.65 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "be70bb92-1728-43fb-ab44-dea7242f60e0")
+		)
+		(fp_line
+			(start -1.65 0.8)
+			(end -1.65 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1afc67cf-8c7f-44cb-b2d7-24aa805970f9")
+		)
+		(fp_line
+			(start 1.65 0.8)
+			(end -1.65 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6c5a714a-7301-42ab-90db-43cd30b3ec2d")
+		)
+		(fp_line
+			(start 0.25 0.4)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "09b149ce-8504-4b49-a0cc-e99d3d18d689")
+		)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "de54a874-877c-4087-aa41-10d50477943d")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "72b96653-df7b-400e-8ab6-5266a041b877")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fcd26268-cbb6-44ed-8ae9-419a8ae2ac7e")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d2bdfa27-ad41-408a-b4c5-759bd87fe763")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb7875a0-c76f-4192-83f0-a793ad614386")
+		)
+		(fp_line
+			(start 0.25 -0.4)
+			(end 0.25 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca753b0f-e892-4ecd-8300-b0f0938e24f4")
+		)
+		(fp_line
+			(start -1.65 -0.8)
+			(end 1.65 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ce65ba1a-8de6-43bf-ab44-a376581f5bd6")
+		)
+		(fp_line
+			(start 1.65 -0.8)
+			(end 1.65 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b1465b19-3ac2-4df1-9b00-dd2f59354ab7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 90)
+			(layer "F.Fab")
+			(uuid "27bfecff-ff4a-4f5f-8501-3899e5f9ba59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.75 0 270)
+			(size 1.3 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1923076923)
+			(net 15 "/MOTOR_DATA4")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "242d4c1e-f955-4294-8255-d6060222dcab")
+		)
+		(pad "2" smd roundrect
+			(at 1.75 0 270)
+			(size 1.3 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1923076923)
+			(net 1 "GND")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "7014d295-5914-46ed-b8aa-b8677193ca32")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4d1f4f21-2c7d-4be2-8982-fd325d743156")
@@ -6054,7 +7238,7 @@
 		(descr "VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf")
 		(tags "VSSOP-8 3.0 x 3.0")
 		(property "Reference" "U11"
-			(at 0.19 2.635 90)
+			(at 4.45 0.525 180)
 			(layer "F.SilkS")
 			(uuid "5e1e38e3-16b4-4143-ba7a-e8df4902f42a")
 			(effects
@@ -7253,7 +8437,7 @@
 		(descr "VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf")
 		(tags "VSSOP-8 3.0 x 3.0")
 		(property "Reference" "U12"
-			(at 0.19 2.635 90)
+			(at 4.4 0.45 180)
 			(layer "F.SilkS")
 			(uuid "d6134f21-171b-4c1b-ac68-7a1d9b9d465a")
 			(effects
@@ -9835,7 +11019,7 @@
 		(descr "VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf")
 		(tags "VSSOP-8 3.0 x 3.0")
 		(property "Reference" "U2"
-			(at 0.19 2.635 90)
+			(at 5.4 3.975 90)
 			(layer "F.SilkS")
 			(uuid "de831bd3-5ea2-49ea-bbae-8487100b5608")
 			(effects
@@ -11296,6 +12480,302 @@
 			(uuid "29cbec6b-9658-400a-9d7a-68e7561ee409")
 		)
 	)
+	(footprint "Diode_SMD:D_MiniMELF"
+		(layer "F.Cu")
+		(uuid "a85b1f18-03c5-44ad-b676-4beaf9d85a5a")
+		(at 190.2 58.15 -90)
+		(descr "Diode Mini-MELF (SOD-80)")
+		(tags "Diode Mini-MELF (SOD-80)")
+		(property "Reference" "D7"
+			(at 0 -2 90)
+			(layer "F.SilkS")
+			(uuid "87eeb0b2-c35a-401f-8a9c-30fe3e83f9cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BZV55B5V1"
+			(at 0 2 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0a3f5f4-dab5-4ad6-9bd5-b2cea4efa3d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10fb4043-9911-4ec0-943a-df9dc9b0977c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75d40cce-5f2f-46d3-8f4e-c17e1a55c194")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6606623f-9297-415b-a60a-e6646806da82")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*MiniMELF*")
+		(path "/801b2823-d201-4e03-bb4e-1661a1b25476")
+		(sheetname "Root")
+		(sheetfile "bez_controller1v5.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.66 1.11)
+			(end 1.75 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "75cad872-8ce3-45c3-b08d-c242d29b3cab")
+		)
+		(fp_line
+			(start -2.66 -1.11)
+			(end -2.66 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fca409b9-b152-4a59-947a-4b2767bc7a31")
+		)
+		(fp_line
+			(start 1.75 -1.11)
+			(end -2.66 -1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "781ea055-fbd9-4712-b80d-0cc4d9e564bc")
+		)
+		(fp_line
+			(start -2.65 1.1)
+			(end -2.65 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b8fe2f72-ddd9-490a-9694-cf1a8c0f7267")
+		)
+		(fp_line
+			(start 2.65 1.1)
+			(end -2.65 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e522fc4a-9ddb-48f8-8903-cb2e95ded732")
+		)
+		(fp_line
+			(start -2.65 -1.1)
+			(end 2.65 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "10165d95-6ed1-4e68-bad1-a5888bfe997f")
+		)
+		(fp_line
+			(start 2.65 -1.1)
+			(end 2.65 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "56dabecd-237b-4ed8-8860-148ec49595e4")
+		)
+		(fp_line
+			(start -1.65 0.8)
+			(end -1.65 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "58a2efe8-cc91-4fc4-a221-cb85b08e332f")
+		)
+		(fp_line
+			(start 1.65 0.8)
+			(end -1.65 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7b34ffb3-7af9-4e37-92ab-d1f1720bb87e")
+		)
+		(fp_line
+			(start 0.25 0.4)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9e3e8b83-2e3b-4287-9fc6-62b5f409df17")
+		)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aeadc5ae-21c9-42c2-bf6a-a590cf4ccbeb")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e7288663-dfd5-45df-bdef-ee6d06f0397f")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "36ab78a4-4036-41ee-9076-5b5bc7985cd8")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6d960ea3-0f10-459d-b293-ffac1d54e905")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e1be8f50-6af0-460e-9a1f-5dde3ad074b6")
+		)
+		(fp_line
+			(start 0.25 -0.4)
+			(end 0.25 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1bd10bb1-193f-4ba3-9789-2724ee6e2ca9")
+		)
+		(fp_line
+			(start -1.65 -0.8)
+			(end 1.65 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "075c555a-c4ae-4f4c-a1bb-e31cba971dd7")
+		)
+		(fp_line
+			(start 1.65 -0.8)
+			(end 1.65 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a69e4a23-9724-407b-bee3-68e20b706cd2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 90)
+			(layer "F.Fab")
+			(uuid "25765e7f-4d34-45f7-baec-86c52f02e646")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.75 0 270)
+			(size 1.3 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1923076923)
+			(net 12 "/MOTOR_DATA1")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "6605f3fd-9474-4f14-a587-d8f5e30e4968")
+		)
+		(pad "2" smd roundrect
+			(at 1.75 0 270)
+			(size 1.3 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1923076923)
+			(net 1 "GND")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "0fa719c4-eb4b-409e-8741-3119fcdd7287")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "aa13c948-7a47-4602-94f2-73fff3b0a5fd")
@@ -11538,7 +13018,7 @@
 		(descr "VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf")
 		(tags "VSSOP-8 3.0 x 3.0")
 		(property "Reference" "U8"
-			(at 0.19 2.635 90)
+			(at 4.65 0.675 180)
 			(layer "F.SilkS")
 			(uuid "d0a3c286-d5c2-4a21-9b67-a14076d15bf4")
 			(effects
@@ -17368,7 +18848,7 @@
 		(descr "VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf")
 		(tags "VSSOP-8 3.0 x 3.0")
 		(property "Reference" "U3"
-			(at 0.19 2.635 90)
+			(at 4.5 0.225 180)
 			(layer "F.SilkS")
 			(uuid "6299fd84-385f-46a0-9f60-3de0f01b2ffa")
 			(effects
@@ -17630,6 +19110,302 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_MiniMELF"
+		(layer "F.Cu")
+		(uuid "d8b7f164-316f-4874-8a13-bae5245dc9df")
+		(at 132.6 58.45 -90)
+		(descr "Diode Mini-MELF (SOD-80)")
+		(tags "Diode Mini-MELF (SOD-80)")
+		(property "Reference" "D8"
+			(at 0.95 2.1 90)
+			(layer "F.SilkS")
+			(uuid "aa5cba28-45d3-42f4-85f4-e6fa67ffe485")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BZV55B5V1"
+			(at 0 2 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b024a6f-edf5-4f90-86eb-7c8bd6abe5b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c760cf83-1b06-434f-b785-6d91e6baf9bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d39f8ef-a40a-407d-b27d-3364e07b3863")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6b1fb50-443a-4e01-828c-09e784719547")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*MiniMELF*")
+		(path "/3a1f34c8-8b8c-48a3-8a10-f96d440d734c")
+		(sheetname "Root")
+		(sheetfile "bez_controller1v5.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.66 1.11)
+			(end 1.75 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7f4fd170-6f57-4d54-940e-b56920b3545f")
+		)
+		(fp_line
+			(start -2.66 -1.11)
+			(end -2.66 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3f833b71-c2d4-43ba-818c-beaa04e4d1ac")
+		)
+		(fp_line
+			(start 1.75 -1.11)
+			(end -2.66 -1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "24cdceed-e7e7-490c-84aa-2623746aa9d9")
+		)
+		(fp_line
+			(start -2.65 1.1)
+			(end -2.65 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b3c14c1c-d17d-486e-8981-a04e37ce56bb")
+		)
+		(fp_line
+			(start 2.65 1.1)
+			(end -2.65 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7c6b0e64-36a9-4b48-828d-0c1c945ab1d7")
+		)
+		(fp_line
+			(start -2.65 -1.1)
+			(end 2.65 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f902a748-afa2-444e-abb2-50a148c07f64")
+		)
+		(fp_line
+			(start 2.65 -1.1)
+			(end 2.65 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c0340250-3412-477a-829d-dfaeb0b65dac")
+		)
+		(fp_line
+			(start -1.65 0.8)
+			(end -1.65 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "39698e0b-81c1-4ac9-87c9-bab8eec0420e")
+		)
+		(fp_line
+			(start 1.65 0.8)
+			(end -1.65 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e0f91c3d-aaa6-4351-a42d-0572baf95000")
+		)
+		(fp_line
+			(start 0.25 0.4)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d45e8d23-5cc9-4e52-bce9-e6a8225e5067")
+		)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d424931c-df6f-453a-9cdc-6a7057565ff7")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c492cbc6-9757-4e55-af5d-cbcc1a990f84")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b4c1f9cf-6ae1-44ce-9803-73639f3be3a3")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "39410fef-047d-4d27-a96d-8817254eaf24")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2cc742ce-6be8-4f06-aca6-1d5dd2ac65ce")
+		)
+		(fp_line
+			(start 0.25 -0.4)
+			(end 0.25 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c901228d-19f7-4d9f-b77d-52dadcfe0303")
+		)
+		(fp_line
+			(start -1.65 -0.8)
+			(end 1.65 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c6b55fe8-d30f-49ee-aaa2-56a7d297ccda")
+		)
+		(fp_line
+			(start 1.65 -0.8)
+			(end 1.65 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cd649924-793c-4a7b-8970-191244a26b64")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 90)
+			(layer "F.Fab")
+			(uuid "4d031ece-92f6-4bbe-8017-fdd7e188d6e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.75 0 270)
+			(size 1.3 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1923076923)
+			(net 16 "/MOTOR_DATA5")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "f6f35544-34fe-422d-bb67-9333e090babb")
+		)
+		(pad "2" smd roundrect
+			(at 1.75 0 270)
+			(size 1.3 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1923076923)
+			(net 1 "GND")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "7974166a-02a0-40c6-a606-77a30edd0cbb")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d9014ac7-b3a5-41d8-a8a5-3d2f15a40117")
@@ -17850,7 +19626,7 @@
 		(descr "VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf")
 		(tags "VSSOP-8 3.0 x 3.0")
 		(property "Reference" "U9"
-			(at 0.19 2.635 90)
+			(at 4.5 0.675 0)
 			(layer "F.SilkS")
 			(uuid "736ba54b-a464-4437-9171-5e06919ce10a")
 			(effects
@@ -20592,1818 +22368,6 @@
 			)
 		)
 	)
-	(footprint "Diode_SMD:D_MiniMELF"
-		(layer "B.Cu")
-		(uuid "064e6ca6-e1b8-4819-ac29-49e32bbd042c")
-		(at 123.29201 54.45)
-		(descr "Diode Mini-MELF (SOD-80)")
-		(tags "Diode Mini-MELF (SOD-80)")
-		(property "Reference" "D6"
-			(at 0 2 0)
-			(layer "B.SilkS")
-			(uuid "e3a9eb92-9916-4838-9078-7206063e63cb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "BZV55B5V1"
-			(at 0 -2 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2d4ea0e6-e7ac-484f-9a93-9e26cf6256e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1150eeb1-2add-420f-93f9-5200b0520adc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f2438af1-9019-4822-a805-2e15226ae32c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e64a4c06-e116-4fd4-948b-a729f36b7adc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "D*MiniMELF*")
-		(path "/814db137-f4c9-4e78-9565-06ceae1963ad")
-		(sheetname "Root")
-		(sheetfile "bez_controller1v5.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -2.66 -1.11)
-			(end -2.66 1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "bf963970-0e41-405a-b0f2-50bca7327303")
-		)
-		(fp_line
-			(start -2.66 1.11)
-			(end 1.75 1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "74bb0b2f-e327-4478-8b33-a9069f886bf9")
-		)
-		(fp_line
-			(start 1.75 -1.11)
-			(end -2.66 -1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "0234bd56-fe49-4f46-a4fb-0a84d0f041a1")
-		)
-		(fp_line
-			(start -2.65 -1.1)
-			(end 2.65 -1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "7d332357-5fde-47af-9df6-2c765e93b2e8")
-		)
-		(fp_line
-			(start -2.65 1.1)
-			(end -2.65 -1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "93ad0e0a-a1b1-4ebd-a839-48a47864abca")
-		)
-		(fp_line
-			(start 2.65 -1.1)
-			(end 2.65 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "e8ed1573-da2a-4f2a-8e02-66f03f758aa2")
-		)
-		(fp_line
-			(start 2.65 1.1)
-			(end -2.65 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "e169b8fb-9582-4485-a6ed-60bb0104b419")
-		)
-		(fp_line
-			(start -1.65 -0.8)
-			(end 1.65 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "2606911f-7446-4fb8-8a76-baff4157db33")
-		)
-		(fp_line
-			(start -1.65 0.8)
-			(end -1.65 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "99deab07-46d3-4fa2-9ac4-db3d5d66e404")
-		)
-		(fp_line
-			(start -0.35 -0.55)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "0d142dee-3909-4c27-8da1-001d0814811e")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "1775e2e1-0133-4d57-9f62-46b3687e0a8e")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end 0.25 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "86482833-8f06-45bc-b029-245d17eb0692")
-		)
-		(fp_line
-			(start -0.35 0.55)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "7e85c0c6-bf44-4f09-9465-b7db4cdd1025")
-		)
-		(fp_line
-			(start 0.25 -0.4)
-			(end 0.25 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "69060820-e63d-4366-8a04-c6b7696635c5")
-		)
-		(fp_line
-			(start 0.25 0.4)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "74d3fb04-b855-4e74-bc3a-a401efc3a18d")
-		)
-		(fp_line
-			(start 0.75 0)
-			(end 0.25 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "75bf1a9d-50dc-49ff-8052-5450221e8dce")
-		)
-		(fp_line
-			(start 1.65 -0.8)
-			(end 1.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "40830a3a-9c3a-441b-9817-c851ad230eaf")
-		)
-		(fp_line
-			(start 1.65 0.8)
-			(end -1.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "d2342725-f3a4-4271-95fd-9bf565112483")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2 0)
-			(layer "B.Fab")
-			(uuid "4816c3ec-3e66-41a2-a3ec-a544336ee0bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.75 0)
-			(size 1.3 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.1923076923)
-			(net 17 "/MOTOR_DATA6")
-			(pinfunction "K")
-			(pintype "passive")
-			(uuid "5029e073-aa2e-4b2e-9947-b905ce55a19d")
-		)
-		(pad "2" smd roundrect
-			(at 1.75 0)
-			(size 1.3 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.1923076923)
-			(net 1 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "d5aa0911-484b-42de-a333-5656e8e6acf8")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Diode_SMD:D_MiniMELF"
-		(layer "B.Cu")
-		(uuid "075e061d-0fb0-486b-9558-3f1a42910459")
-		(at 166.878995 54.45)
-		(descr "Diode Mini-MELF (SOD-80)")
-		(tags "Diode Mini-MELF (SOD-80)")
-		(property "Reference" "D5"
-			(at 0 2 0)
-			(layer "B.SilkS")
-			(uuid "58b240dd-259b-43e0-b2b2-542289660d31")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "BZV55B5V1"
-			(at 0 -2 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b9f51847-0958-4d99-9c4f-c22f6fddece3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "72a1fc43-0254-4367-ab43-d99774eb50ab")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8ab3da8e-820b-467d-b874-b25dc7cceb8e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a39066e9-111f-47f0-afd5-a3d5af8e69b0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "D*MiniMELF*")
-		(path "/3b76bcd3-ee55-4e8f-a135-9736330c4268")
-		(sheetname "Root")
-		(sheetfile "bez_controller1v5.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -2.66 -1.11)
-			(end -2.66 1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f9f451af-6437-4ac6-a638-08a5ebec7a51")
-		)
-		(fp_line
-			(start -2.66 1.11)
-			(end 1.75 1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5a6d6b34-017d-484b-b901-d5bc310015e7")
-		)
-		(fp_line
-			(start 1.75 -1.11)
-			(end -2.66 -1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9d7526c1-be2a-4daf-8adb-8ec62cb15b9a")
-		)
-		(fp_line
-			(start -2.65 -1.1)
-			(end 2.65 -1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "e6630018-7395-4394-ba85-ae412ec4f09c")
-		)
-		(fp_line
-			(start -2.65 1.1)
-			(end -2.65 -1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "3f8e2cbb-2f27-4a7f-b4bb-9407d231fdb0")
-		)
-		(fp_line
-			(start 2.65 -1.1)
-			(end 2.65 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "f45bf765-f76b-4799-9485-161a2a8a866f")
-		)
-		(fp_line
-			(start 2.65 1.1)
-			(end -2.65 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "4cccafe3-cac2-4f52-a025-a57624a5cfd7")
-		)
-		(fp_line
-			(start -1.65 -0.8)
-			(end 1.65 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "9624b0e0-4f8b-4439-85b7-b93649df5697")
-		)
-		(fp_line
-			(start -1.65 0.8)
-			(end -1.65 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "01bd41e6-9656-4aa0-b387-ac761e0ff296")
-		)
-		(fp_line
-			(start -0.35 -0.55)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "9d6bdb56-de16-4ad9-9355-96f0630bc05e")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "fd7edd0b-f8cb-40cc-9fc6-d216bb0267d3")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end 0.25 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "58581987-5693-4563-808e-a8766b017861")
-		)
-		(fp_line
-			(start -0.35 0.55)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "1b4c2e56-d4c0-4093-ac8c-127c9ce44dcd")
-		)
-		(fp_line
-			(start 0.25 -0.4)
-			(end 0.25 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "504a7b2a-4b8f-4189-8364-63475c806e4b")
-		)
-		(fp_line
-			(start 0.25 0.4)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "73285cb8-ed6b-46d3-8826-feb7d3adb8e4")
-		)
-		(fp_line
-			(start 0.75 0)
-			(end 0.25 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "068ca4d1-ad9a-4f7a-94de-0ae4b8e3ba25")
-		)
-		(fp_line
-			(start 1.65 -0.8)
-			(end 1.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "ae7b9a99-d1ab-4ba8-9ad3-ec90e30c6ccd")
-		)
-		(fp_line
-			(start 1.65 0.8)
-			(end -1.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "92b753ad-efb0-4f6c-a3d2-90b1f72ec4fb")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2 0)
-			(layer "B.Fab")
-			(uuid "bd77eeb6-a069-47f0-bd32-41e96e7643ed")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.75 0)
-			(size 1.3 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.1923076923)
-			(net 14 "/MOTOR_DATA3")
-			(pinfunction "K")
-			(pintype "passive")
-			(uuid "03dc1a47-e9f0-43b2-a4f6-96fbf65990e0")
-		)
-		(pad "2" smd roundrect
-			(at 1.75 0)
-			(size 1.3 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.1923076923)
-			(net 1 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "4fc66b79-3c1f-49da-9a92-b934d75a3c48")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Diode_SMD:D_MiniMELF"
-		(layer "B.Cu")
-		(uuid "17abbeaf-414c-48b0-9146-6653ef646ed7")
-		(at 181.40799 54.45)
-		(descr "Diode Mini-MELF (SOD-80)")
-		(tags "Diode Mini-MELF (SOD-80)")
-		(property "Reference" "D10"
-			(at 0 2 0)
-			(layer "B.SilkS")
-			(uuid "28c6aead-19cd-4ed3-9a78-dcb61a272528")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "BZV55B5V1"
-			(at 0 -2 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5c11b557-c762-47cf-90d7-a88c11264da1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "134f2cfa-fd3d-46cc-a3b3-67a82f213617")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "907c393a-f62c-4907-b22e-2a729a316d8f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "92431ba5-e9b4-478d-b05d-bb9aa4c516fa")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "D*MiniMELF*")
-		(path "/927f1e71-4390-49f6-810e-94a1e2ec0b80")
-		(sheetname "Root")
-		(sheetfile "bez_controller1v5.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -2.66 -1.11)
-			(end -2.66 1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "91d0ef6d-efb8-48a5-bce5-84aca62124af")
-		)
-		(fp_line
-			(start -2.66 1.11)
-			(end 1.75 1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4d39bd99-fbef-43f6-96cf-183734d5fc6f")
-		)
-		(fp_line
-			(start 1.75 -1.11)
-			(end -2.66 -1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c55f01de-bd26-4988-8fff-f65c82be5538")
-		)
-		(fp_line
-			(start -2.65 -1.1)
-			(end 2.65 -1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "106b8cd6-2f7c-4862-853a-7d82f0cfa6de")
-		)
-		(fp_line
-			(start -2.65 1.1)
-			(end -2.65 -1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "e212e986-50ef-4fc2-9e2d-7f76594403ce")
-		)
-		(fp_line
-			(start 2.65 -1.1)
-			(end 2.65 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "400d681b-0dad-4e35-8eca-72670e758715")
-		)
-		(fp_line
-			(start 2.65 1.1)
-			(end -2.65 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "5d48549b-2177-4c72-ae48-17bb8d6bde1a")
-		)
-		(fp_line
-			(start -1.65 -0.8)
-			(end 1.65 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "e7a03170-0ef9-444b-b1c3-05c884f854b2")
-		)
-		(fp_line
-			(start -1.65 0.8)
-			(end -1.65 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "27f2162e-f317-4529-8d69-bac1a62cffb5")
-		)
-		(fp_line
-			(start -0.35 -0.55)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "44d24182-e762-458d-b7b7-66c3d3f47bf3")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "a616676c-2e81-4bdb-9024-56fdfd943e39")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end 0.25 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "6d96fc18-9707-44f3-a0df-32e509baf127")
-		)
-		(fp_line
-			(start -0.35 0.55)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "25c1a763-e0f9-49fb-bf35-567054a59696")
-		)
-		(fp_line
-			(start 0.25 -0.4)
-			(end 0.25 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "455bdc15-c02d-425d-814b-57b04fd8a7f6")
-		)
-		(fp_line
-			(start 0.25 0.4)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "f6edc426-423c-4a11-8688-c3bd9e477c03")
-		)
-		(fp_line
-			(start 0.75 0)
-			(end 0.25 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "6550bba2-586c-4592-a73f-44bae7bfa2c6")
-		)
-		(fp_line
-			(start 1.65 -0.8)
-			(end 1.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "d1e4219d-d85b-4230-98fc-c19288dd8b95")
-		)
-		(fp_line
-			(start 1.65 0.8)
-			(end -1.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "70547824-06f3-428f-84c2-5e8823eef1e0")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2 0)
-			(layer "B.Fab")
-			(uuid "a76f3732-a224-4bee-b1bb-bb0d15c3e1b7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.75 0)
-			(size 1.3 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.1923076923)
-			(net 13 "/MOTOR_DATA2")
-			(pinfunction "K")
-			(pintype "passive")
-			(uuid "c6e915cb-277a-4b01-b348-3968ac02d98c")
-		)
-		(pad "2" smd roundrect
-			(at 1.75 0)
-			(size 1.3 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.1923076923)
-			(net 1 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "9a609cc6-8ff9-473e-a8f8-4d86d09bd946")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Diode_SMD:D_MiniMELF"
-		(layer "B.Cu")
-		(uuid "4760357d-fdd1-4227-8597-e3bce8b2096a")
-		(at 152.35 54.45)
-		(descr "Diode Mini-MELF (SOD-80)")
-		(tags "Diode Mini-MELF (SOD-80)")
-		(property "Reference" "D9"
-			(at 0 2 0)
-			(layer "B.SilkS")
-			(uuid "4fdf279e-18ff-439f-a0df-42130e72b2dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "BZV55B5V1"
-			(at 0 -2 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "51d37066-13e5-4263-a9f9-f96c73b9dafa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "02db3d8a-1047-4bd7-8089-e11b952ccbc9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d1c379c5-652b-4c34-8b58-e5d3c7163864")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "94029ef7-50c2-4314-a203-e11f3fe08fab")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "D*MiniMELF*")
-		(path "/2e209ffd-2887-49a6-ac12-302e7415160a")
-		(sheetname "Root")
-		(sheetfile "bez_controller1v5.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -2.66 -1.11)
-			(end -2.66 1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "3358d977-5043-4f84-9452-63f678e149b0")
-		)
-		(fp_line
-			(start -2.66 1.11)
-			(end 1.75 1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "3779b9c2-9516-46fd-af04-f89ad02227b2")
-		)
-		(fp_line
-			(start 1.75 -1.11)
-			(end -2.66 -1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ed55c3b5-48fa-4223-ab6d-a1588a9d19d3")
-		)
-		(fp_line
-			(start -2.65 -1.1)
-			(end 2.65 -1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "8e87f92e-6ed5-4e3c-9812-78edb851e3e4")
-		)
-		(fp_line
-			(start -2.65 1.1)
-			(end -2.65 -1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "cb41a710-5d9b-49c0-828f-45bdd634fc60")
-		)
-		(fp_line
-			(start 2.65 -1.1)
-			(end 2.65 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "be70bb92-1728-43fb-ab44-dea7242f60e0")
-		)
-		(fp_line
-			(start 2.65 1.1)
-			(end -2.65 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "fa2e0714-d132-4a03-b8fe-7ca83c354368")
-		)
-		(fp_line
-			(start -1.65 -0.8)
-			(end 1.65 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "6c5a714a-7301-42ab-90db-43cd30b3ec2d")
-		)
-		(fp_line
-			(start -1.65 0.8)
-			(end -1.65 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "1afc67cf-8c7f-44cb-b2d7-24aa805970f9")
-		)
-		(fp_line
-			(start -0.35 -0.55)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "72b96653-df7b-400e-8ab6-5266a041b877")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "de54a874-877c-4087-aa41-10d50477943d")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end 0.25 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "09b149ce-8504-4b49-a0cc-e99d3d18d689")
-		)
-		(fp_line
-			(start -0.35 0.55)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "d2bdfa27-ad41-408a-b4c5-759bd87fe763")
-		)
-		(fp_line
-			(start 0.25 -0.4)
-			(end 0.25 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "ca753b0f-e892-4ecd-8300-b0f0938e24f4")
-		)
-		(fp_line
-			(start 0.25 0.4)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "fcd26268-cbb6-44ed-8ae9-419a8ae2ac7e")
-		)
-		(fp_line
-			(start 0.75 0)
-			(end 0.25 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "bb7875a0-c76f-4192-83f0-a793ad614386")
-		)
-		(fp_line
-			(start 1.65 -0.8)
-			(end 1.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "b1465b19-3ac2-4df1-9b00-dd2f59354ab7")
-		)
-		(fp_line
-			(start 1.65 0.8)
-			(end -1.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "ce65ba1a-8de6-43bf-ab44-a376581f5bd6")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2 0)
-			(layer "B.Fab")
-			(uuid "27bfecff-ff4a-4f5f-8501-3899e5f9ba59")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.75 0)
-			(size 1.3 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.1923076923)
-			(net 15 "/MOTOR_DATA4")
-			(pinfunction "K")
-			(pintype "passive")
-			(uuid "242d4c1e-f955-4294-8255-d6060222dcab")
-		)
-		(pad "2" smd roundrect
-			(at 1.75 0)
-			(size 1.3 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.1923076923)
-			(net 1 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "7014d295-5914-46ed-b8aa-b8677193ca32")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Diode_SMD:D_MiniMELF"
-		(layer "B.Cu")
-		(uuid "a85b1f18-03c5-44ad-b676-4beaf9d85a5a")
-		(at 195.936988 54.45)
-		(descr "Diode Mini-MELF (SOD-80)")
-		(tags "Diode Mini-MELF (SOD-80)")
-		(property "Reference" "D7"
-			(at 0 2 0)
-			(layer "B.SilkS")
-			(uuid "87eeb0b2-c35a-401f-8a9c-30fe3e83f9cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "BZV55B5V1"
-			(at 0 -2 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c0a3f5f4-dab5-4ad6-9bd5-b2cea4efa3d3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "10fb4043-9911-4ec0-943a-df9dc9b0977c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "75d40cce-5f2f-46d3-8f4e-c17e1a55c194")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6606623f-9297-415b-a60a-e6646806da82")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "D*MiniMELF*")
-		(path "/801b2823-d201-4e03-bb4e-1661a1b25476")
-		(sheetname "Root")
-		(sheetfile "bez_controller1v5.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -2.66 -1.11)
-			(end -2.66 1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "fca409b9-b152-4a59-947a-4b2767bc7a31")
-		)
-		(fp_line
-			(start -2.66 1.11)
-			(end 1.75 1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "781ea055-fbd9-4712-b80d-0cc4d9e564bc")
-		)
-		(fp_line
-			(start 1.75 -1.11)
-			(end -2.66 -1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "75cad872-8ce3-45c3-b08d-c242d29b3cab")
-		)
-		(fp_line
-			(start -2.65 -1.1)
-			(end 2.65 -1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "e522fc4a-9ddb-48f8-8903-cb2e95ded732")
-		)
-		(fp_line
-			(start -2.65 1.1)
-			(end -2.65 -1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "b8fe2f72-ddd9-490a-9694-cf1a8c0f7267")
-		)
-		(fp_line
-			(start 2.65 -1.1)
-			(end 2.65 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "56dabecd-237b-4ed8-8860-148ec49595e4")
-		)
-		(fp_line
-			(start 2.65 1.1)
-			(end -2.65 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "10165d95-6ed1-4e68-bad1-a5888bfe997f")
-		)
-		(fp_line
-			(start -1.65 -0.8)
-			(end 1.65 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "7b34ffb3-7af9-4e37-92ab-d1f1720bb87e")
-		)
-		(fp_line
-			(start -1.65 0.8)
-			(end -1.65 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "58a2efe8-cc91-4fc4-a221-cb85b08e332f")
-		)
-		(fp_line
-			(start -0.35 -0.55)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "e7288663-dfd5-45df-bdef-ee6d06f0397f")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "aeadc5ae-21c9-42c2-bf6a-a590cf4ccbeb")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end 0.25 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "9e3e8b83-2e3b-4287-9fc6-62b5f409df17")
-		)
-		(fp_line
-			(start -0.35 0.55)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "6d960ea3-0f10-459d-b293-ffac1d54e905")
-		)
-		(fp_line
-			(start 0.25 -0.4)
-			(end 0.25 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "1bd10bb1-193f-4ba3-9789-2724ee6e2ca9")
-		)
-		(fp_line
-			(start 0.25 0.4)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "36ab78a4-4036-41ee-9076-5b5bc7985cd8")
-		)
-		(fp_line
-			(start 0.75 0)
-			(end 0.25 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "e1be8f50-6af0-460e-9a1f-5dde3ad074b6")
-		)
-		(fp_line
-			(start 1.65 -0.8)
-			(end 1.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "a69e4a23-9724-407b-bee3-68e20b706cd2")
-		)
-		(fp_line
-			(start 1.65 0.8)
-			(end -1.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "075c555a-c4ae-4f4c-a1bb-e31cba971dd7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2 0)
-			(layer "B.Fab")
-			(uuid "25765e7f-4d34-45f7-baec-86c52f02e646")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.75 0)
-			(size 1.3 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.1923076923)
-			(net 12 "/MOTOR_DATA1")
-			(pinfunction "K")
-			(pintype "passive")
-			(uuid "6605f3fd-9474-4f14-a587-d8f5e30e4968")
-		)
-		(pad "2" smd roundrect
-			(at 1.75 0)
-			(size 1.3 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.1923076923)
-			(net 1 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "0fa719c4-eb4b-409e-8741-3119fcdd7287")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Diode_SMD:D_MiniMELF"
-		(layer "B.Cu")
-		(uuid "d8b7f164-316f-4874-8a13-bae5245dc9df")
-		(at 137.821005 54.45)
-		(descr "Diode Mini-MELF (SOD-80)")
-		(tags "Diode Mini-MELF (SOD-80)")
-		(property "Reference" "D8"
-			(at 0 2 0)
-			(layer "B.SilkS")
-			(uuid "aa5cba28-45d3-42f4-85f4-e6fa67ffe485")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "BZV55B5V1"
-			(at 0 -2 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3b024a6f-edf5-4f90-86eb-7c8bd6abe5b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c760cf83-1b06-434f-b785-6d91e6baf9bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9d39f8ef-a40a-407d-b27d-3364e07b3863")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d6b1fb50-443a-4e01-828c-09e784719547")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "D*MiniMELF*")
-		(path "/3a1f34c8-8b8c-48a3-8a10-f96d440d734c")
-		(sheetname "Root")
-		(sheetfile "bez_controller1v5.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -2.66 -1.11)
-			(end -2.66 1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "3f833b71-c2d4-43ba-818c-beaa04e4d1ac")
-		)
-		(fp_line
-			(start -2.66 1.11)
-			(end 1.75 1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "24cdceed-e7e7-490c-84aa-2623746aa9d9")
-		)
-		(fp_line
-			(start 1.75 -1.11)
-			(end -2.66 -1.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7f4fd170-6f57-4d54-940e-b56920b3545f")
-		)
-		(fp_line
-			(start -2.65 -1.1)
-			(end 2.65 -1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "7c6b0e64-36a9-4b48-828d-0c1c945ab1d7")
-		)
-		(fp_line
-			(start -2.65 1.1)
-			(end -2.65 -1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "b3c14c1c-d17d-486e-8981-a04e37ce56bb")
-		)
-		(fp_line
-			(start 2.65 -1.1)
-			(end 2.65 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "c0340250-3412-477a-829d-dfaeb0b65dac")
-		)
-		(fp_line
-			(start 2.65 1.1)
-			(end -2.65 1.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "f902a748-afa2-444e-abb2-50a148c07f64")
-		)
-		(fp_line
-			(start -1.65 -0.8)
-			(end 1.65 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "e0f91c3d-aaa6-4351-a42d-0572baf95000")
-		)
-		(fp_line
-			(start -1.65 0.8)
-			(end -1.65 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "39698e0b-81c1-4ac9-87c9-bab8eec0420e")
-		)
-		(fp_line
-			(start -0.35 -0.55)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "c492cbc6-9757-4e55-af5d-cbcc1a990f84")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "d424931c-df6f-453a-9cdc-6a7057565ff7")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end 0.25 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "d45e8d23-5cc9-4e52-bce9-e6a8225e5067")
-		)
-		(fp_line
-			(start -0.35 0.55)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "39410fef-047d-4d27-a96d-8817254eaf24")
-		)
-		(fp_line
-			(start 0.25 -0.4)
-			(end 0.25 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "c901228d-19f7-4d9f-b77d-52dadcfe0303")
-		)
-		(fp_line
-			(start 0.25 0.4)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "b4c1f9cf-6ae1-44ce-9803-73639f3be3a3")
-		)
-		(fp_line
-			(start 0.75 0)
-			(end 0.25 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "2cc742ce-6be8-4f06-aca6-1d5dd2ac65ce")
-		)
-		(fp_line
-			(start 1.65 -0.8)
-			(end 1.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "cd649924-793c-4a7b-8970-191244a26b64")
-		)
-		(fp_line
-			(start 1.65 0.8)
-			(end -1.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "c6b55fe8-d30f-49ee-aaa2-56a7d297ccda")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2 0)
-			(layer "B.Fab")
-			(uuid "4d031ece-92f6-4bbe-8017-fdd7e188d6e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.75 0)
-			(size 1.3 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.1923076923)
-			(net 16 "/MOTOR_DATA5")
-			(pinfunction "K")
-			(pintype "passive")
-			(uuid "f6f35544-34fe-422d-bb67-9333e090babb")
-		)
-		(pad "2" smd roundrect
-			(at 1.75 0)
-			(size 1.3 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.1923076923)
-			(net 1 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "7974166a-02a0-40c6-a606-77a30edd0cbb")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(gr_line
 		(start 213.75 53)
 		(end 213.75 98)
@@ -22601,6 +22565,22 @@
 		(uuid "0b778825-0deb-4d42-94b4-58f19e954c78")
 	)
 	(segment
+		(start 188.4 58.1)
+		(end 190.2 59.9)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "0f1f6ab0-bab4-46c5-9863-b0578da68d69")
+	)
+	(segment
+		(start 146.25 53.9)
+		(end 145.2 54.95)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "10ccc31c-7811-413f-b836-2e35c0b1d084")
+	)
+	(segment
 		(start 103.3 47.5)
 		(end 103 47.8)
 		(width 0.3)
@@ -22641,6 +22621,14 @@
 		(uuid "19a35a17-ea6c-4f46-9651-d67cce2fdd2f")
 	)
 	(segment
+		(start 159.6 58.3)
+		(end 161.5 60.2)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "1acfed8f-c004-4190-aafa-f3be61f37008")
+	)
+	(segment
 		(start 146.775 54.875)
 		(end 146.25 54.35)
 		(width 0.3)
@@ -22657,6 +22645,14 @@
 		(uuid "1f3ba346-7bb4-4af4-9506-657f24e0602b")
 	)
 	(segment
+		(start 130.4 58)
+		(end 132.6 60.2)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "201f6a48-25e8-49ca-bc20-b0ba8433fecc")
+	)
+	(segment
 		(start 146.775 54.875)
 		(end 149.175 54.875)
 		(width 0.3)
@@ -22671,6 +22667,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "257fa951-5d81-4720-bc50-7c652bede016")
+	)
+	(segment
+		(start 145.2 57.85)
+		(end 147.3 59.95)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "261a006e-ad6f-4e16-be7b-912da13f49df")
 	)
 	(segment
 		(start 197.6575 76.08)
@@ -22713,6 +22717,22 @@
 		(uuid "2b05d49c-bd5a-4346-944c-add08da03751")
 	)
 	(segment
+		(start 115.8 55.4)
+		(end 115.8 57.75)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "2b1a1547-b57b-4890-a09a-18bcd250504f")
+	)
+	(segment
+		(start 130.4 55.4)
+		(end 130.4 58)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "2c68d3eb-ae1c-4e8a-96a4-cb7e1ead40c6")
+	)
+	(segment
 		(start 193.2 54.4)
 		(end 192.875 54.725)
 		(width 0.3)
@@ -22727,6 +22747,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "2da46d5e-6e88-474e-a617-66d2eb7e3775")
+	)
+	(segment
+		(start 174.4 58.3)
+		(end 176.1 60)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "2da72888-33e9-45f0-8f58-4aeca12c87ac")
 	)
 	(segment
 		(start 153.65 73.3)
@@ -22841,12 +22869,28 @@
 		(uuid "4eadef1e-7153-4d18-8e19-a59fcc8c6c8d")
 	)
 	(segment
+		(start 131.75 54.05)
+		(end 130.4 55.4)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "4eb59326-b4b2-4378-853d-5106daca3cf5")
+	)
+	(segment
 		(start 137.77 86.48)
 		(end 137.25 87)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "51060d0b-5675-4980-9763-d8bb5bd7c511")
+	)
+	(segment
+		(start 115.8 57.75)
+		(end 118.2 60.15)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "5258c9c2-de64-4e19-906d-d43fd0a49b88")
 	)
 	(segment
 		(start 148.8 88.95)
@@ -22863,6 +22907,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "585f956b-4609-411f-9bfe-52e8d348428b")
+	)
+	(segment
+		(start 175.275 53.9)
+		(end 175.275 53.925)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "592f58eb-7f33-43d1-ab04-f8813b44f7dc")
 	)
 	(segment
 		(start 175.275 53.9)
@@ -23073,6 +23125,14 @@
 		(uuid "86469b7b-01b6-4a3a-945c-121baf353a6d")
 	)
 	(segment
+		(start 159.6 55.1)
+		(end 159.6 58.3)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "868ae685-6585-4884-b7f2-cd64e53b2251")
+	)
+	(segment
 		(start 139.05 88.8)
 		(end 137.25 87)
 		(width 0.25)
@@ -23097,12 +23157,36 @@
 		(uuid "99de7e18-74d6-4099-b389-07ed3323c700")
 	)
 	(segment
+		(start 160.8 53.9)
+		(end 159.6 55.1)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "99e89b68-55fe-436e-a695-48a977e076c3")
+	)
+	(segment
 		(start 137.76 82.4)
 		(end 138.285 82.925)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "9d077c37-7e82-4b73-ba90-83a9f154cf52")
+	)
+	(segment
+		(start 145.2 54.95)
+		(end 145.2 57.85)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "9fbef4b8-303a-4c8f-80a8-8b6cd69b5c7d")
+	)
+	(segment
+		(start 188.4 55.3)
+		(end 188.4 58.1)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "a6e0ca6d-73d9-4ec9-8719-8d22cc9d9d5f")
 	)
 	(segment
 		(start 134.85 82.4)
@@ -23201,6 +23285,14 @@
 		(uuid "be1badf0-1a58-49ec-a4d3-c96be98353e6")
 	)
 	(segment
+		(start 117.15 54.05)
+		(end 115.8 55.4)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "c2160528-708a-4b8c-be5d-e981cea66b22")
+	)
+	(segment
 		(start 119.95 77.05)
 		(end 120.025 76.975)
 		(width 0.3)
@@ -23233,12 +23325,28 @@
 		(uuid "cb6e0477-7cf5-4370-baa2-b053bfb9f178")
 	)
 	(segment
+		(start 175.275 53.925)
+		(end 174.4 54.8)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "cbb3fcea-1644-4271-b816-52d5544a96ad")
+	)
+	(segment
 		(start 160.8 53.9)
 		(end 160.8 50.771249)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "d35f1efa-de48-4362-b7ba-576056304c7e")
+	)
+	(segment
+		(start 189.8 53.9)
+		(end 188.4 55.3)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "d4b58332-3111-4993-ba84-bd3c7a61ba8c")
 	)
 	(segment
 		(start 153.125 76.70312)
@@ -23319,6 +23427,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "e528798c-7178-41c7-8506-03979b02df09")
+	)
+	(segment
+		(start 174.4 54.8)
+		(end 174.4 58.3)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "e708cb1b-3133-4a21-a53a-4fa724bb6517")
 	)
 	(segment
 		(start 137.25 87)
@@ -24903,12 +25019,36 @@
 		(uuid "6f183734-220b-493b-b82d-100966a04e24")
 	)
 	(segment
+		(start 192.85 56.4)
+		(end 190.2 56.4)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "a0d98738-b787-4c9c-8863-ae6a7132472d")
+	)
+	(segment
+		(start 194.15 55.1)
+		(end 192.85 56.4)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "ad35b4c7-c201-4fff-90bc-1171f3b2130f")
+	)
+	(segment
 		(start 196.85 55.775)
 		(end 196.85 54.25)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 12)
 		(uuid "ad5eb4e4-4752-4133-8b3f-3145ef622c7d")
+	)
+	(segment
+		(start 194.15 54.4)
+		(end 194.15 55.1)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "d87054cc-27cf-4542-8862-74401fd05ef5")
 	)
 	(segment
 		(start 194.15 50.45)
@@ -24927,28 +25067,20 @@
 		(uuid "fff91eb5-692e-49ed-967b-db0043141025")
 	)
 	(segment
-		(start 194.186988 50.4)
-		(end 194.336988 50.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 12)
-		(uuid "48309374-0eb3-45cb-809a-dac78cf69e63")
-	)
-	(segment
-		(start 194.186988 54.45)
-		(end 194.186988 50.4)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 12)
-		(uuid "6c225633-7419-46b2-8cc5-ac679d5af298")
-	)
-	(segment
 		(start 182.35 55.775)
 		(end 182.35 54.25)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 13)
 		(uuid "0fd223c3-92fd-4b15-bdde-cddf666ebf2c")
+	)
+	(segment
+		(start 178.25 56.5)
+		(end 176.1 56.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "1b71021b-501b-48d2-8856-cbc2cd149f43")
 	)
 	(segment
 		(start 179.6 54.35)
@@ -24973,6 +25105,14 @@
 		(layer "F.Cu")
 		(net 13)
 		(uuid "4d4b00cd-8f9d-44da-8df8-42c9acfac1f7")
+	)
+	(segment
+		(start 179.65 55.1)
+		(end 178.25 56.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "4f1d3713-8efd-40cd-bc1e-6f2178135d90")
 	)
 	(segment
 		(start 179.65 54.4)
@@ -25015,6 +25155,14 @@
 		(uuid "c8849faa-3a8d-4b95-a089-d780cc7f17a3")
 	)
 	(segment
+		(start 179.65 54.4)
+		(end 179.65 55.1)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "cc6041bb-7c5d-40c4-bb2e-920877c3af51")
+	)
+	(segment
 		(start 179.6 50.45)
 		(end 179.6 51.2)
 		(width 0.5)
@@ -25023,20 +25171,20 @@
 		(uuid "e6d36c22-20a7-4b1d-86ea-0fc1c9c7cbf5")
 	)
 	(segment
-		(start 179.65799 50.4)
-		(end 179.80799 50.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 13)
-		(uuid "7cfb44c4-6aab-4819-a2f5-d9a11ec2b3ee")
+		(start 165.15 55.075)
+		(end 163.525 56.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 14)
+		(uuid "1ad24ca8-626e-4a1b-abaa-4de0f7eea8cf")
 	)
 	(segment
-		(start 179.65799 54.45)
-		(end 179.65799 50.4)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 13)
-		(uuid "cab9d204-3357-4c12-94a4-3c43e8a9b857")
+		(start 163.525 56.7)
+		(end 161.5 56.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 14)
+		(uuid "3c083cc2-898a-4f4f-90c9-9932b3cb1f0e")
 	)
 	(segment
 		(start 165.15 51.575)
@@ -25104,27 +25252,19 @@
 	)
 	(segment
 		(start 165.15 54.4)
+		(end 165.15 55.075)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 14)
+		(uuid "f21acb0c-6eac-479b-88a8-5a9c54d85d24")
+	)
+	(segment
+		(start 165.15 54.4)
 		(end 165.475 54.4)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 14)
 		(uuid "fb8cf7be-adbd-4dfe-bcb0-5e5a6b66c32d")
-	)
-	(segment
-		(start 165.128995 50.4)
-		(end 165.278995 50.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 14)
-		(uuid "025d4336-8056-4ceb-b9a9-b418b1d69d1a")
-	)
-	(segment
-		(start 165.128995 54.45)
-		(end 165.128995 50.4)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 14)
-		(uuid "28fc9a79-504c-4c6e-ac6d-5ba6bcaf7196")
 	)
 	(segment
 		(start 153.35 54.3)
@@ -25133,6 +25273,22 @@
 		(layer "F.Cu")
 		(net 15)
 		(uuid "01f84bec-681d-4178-bab2-0c537c81fc38")
+	)
+	(segment
+		(start 150.6 55.1)
+		(end 149.25 56.45)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "208a14b9-6c16-4352-8653-978c96acff8f")
+	)
+	(segment
+		(start 150.6 54.4)
+		(end 150.6 55.1)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "2b9a66ed-c818-4088-bb6e-d0cbd302aa93")
 	)
 	(segment
 		(start 153.35 55.75)
@@ -25183,6 +25339,14 @@
 		(uuid "adfa9f66-ce3a-4e80-a96c-fc1db4e79ff1")
 	)
 	(segment
+		(start 149.25 56.45)
+		(end 147.3 56.45)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "bea73e56-cd8f-4d1b-a96d-b5d97bfa3ced")
+	)
+	(segment
 		(start 150.3 54.4)
 		(end 150.6 54.4)
 		(width 0.3)
@@ -25199,22 +25363,6 @@
 		(uuid "fd945094-66e3-4cbf-9d02-34c9d1b31cdd")
 	)
 	(segment
-		(start 150.6 54.45)
-		(end 150.6 50.4)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 15)
-		(uuid "1bada1fd-48e5-40c4-b724-b5652faeec8f")
-	)
-	(segment
-		(start 150.6 50.4)
-		(end 150.75 50.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 15)
-		(uuid "6eb244fa-ea79-4177-a38e-f06920a9365e")
-	)
-	(segment
 		(start 138.8 55.775)
 		(end 138.8 54.35)
 		(width 0.5)
@@ -25223,12 +25371,36 @@
 		(uuid "08e8ad56-2719-444a-922b-20cb7de1dbee")
 	)
 	(segment
+		(start 134.5 56.7)
+		(end 132.6 56.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "26f71da7-92d0-46af-9ae5-31a1d30b3d47")
+	)
+	(segment
 		(start 135.75 54.45)
 		(end 136.05 54.45)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 16)
 		(uuid "27e290af-6579-4a85-a17e-bbdb21a26d6c")
+	)
+	(segment
+		(start 136.05 55.15)
+		(end 134.5 56.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "2e78eb23-6193-4875-877c-af9a2a92700e")
+	)
+	(segment
+		(start 136.05 54.45)
+		(end 136.05 55.15)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "3521daf5-5546-412a-b9a1-54abd6c22023")
 	)
 	(segment
 		(start 136.2 50.25)
@@ -25287,22 +25459,6 @@
 		(uuid "d6a91e72-b13e-4f59-b02e-90da8844ca8d")
 	)
 	(segment
-		(start 136.071005 50.4)
-		(end 136.221005 50.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 16)
-		(uuid "82ee432f-0975-4339-abe8-1ab820902c7a")
-	)
-	(segment
-		(start 136.071005 54.45)
-		(end 136.071005 50.4)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 16)
-		(uuid "986f3e24-9a3b-464d-9a3e-1f280b5a1ecf")
-	)
-	(segment
 		(start 124.2 55.725)
 		(end 124.2 54.3)
 		(width 0.5)
@@ -25317,6 +25473,22 @@
 		(layer "F.Cu")
 		(net 17)
 		(uuid "2095eb8d-6928-4b30-9029-1389d574e8cf")
+	)
+	(segment
+		(start 119.95 56.65)
+		(end 118.2 56.65)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "926045e0-f8bd-492a-9d8e-5e6474e42855")
+	)
+	(segment
+		(start 121.55 54.45)
+		(end 121.55 55.05)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "95551549-d735-42d2-b6db-d83a92af94b6")
 	)
 	(segment
 		(start 121.55 50.3)
@@ -25341,6 +25513,14 @@
 		(layer "F.Cu")
 		(net 17)
 		(uuid "a451581f-da37-4df8-9075-d1b4b9b7ad78")
+	)
+	(segment
+		(start 121.55 55.05)
+		(end 119.95 56.65)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "cc659c2f-1cb6-4793-ad12-92718694f510")
 	)
 	(segment
 		(start 121.55 51.65)
@@ -25373,22 +25553,6 @@
 		(layer "F.Cu")
 		(net 17)
 		(uuid "e5cd2535-b0ba-4423-ae45-634c65a920e0")
-	)
-	(segment
-		(start 121.54201 50.4)
-		(end 121.69201 50.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 17)
-		(uuid "3689dcd4-8974-438a-8dd7-a2c24b3c7ef2")
-	)
-	(segment
-		(start 121.54201 54.45)
-		(end 121.54201 50.4)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 17)
-		(uuid "ec987994-d6c6-4785-b98d-488772168466")
 	)
 	(segment
 		(start 110.11 55.285)
