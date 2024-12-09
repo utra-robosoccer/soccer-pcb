@@ -1695,7 +1695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "xt60:AMASS_XT60-M"
 			(at 55.88 85.09 0)
 			(effects
 				(font
