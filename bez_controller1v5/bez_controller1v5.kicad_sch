@@ -4261,150 +4261,6 @@
 				)
 			)
 		)
-		(symbol "Diode:BZV55B5V1"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BZV55B5V1"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_MiniMELF"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*MiniMELF*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BZV55B5V1_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BZV55B5V1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MCU_ST_STM32F4:STM32F446RETx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8275,7 +8131,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 -101.6) (xy 182.88 -99.695)
+			(xy 182.88 -101.6) (xy 182.88 -97.79)
 		)
 		(stroke
 			(width 0)
@@ -9185,16 +9041,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 -92.075) (xy 182.88 -90.805)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ca926a7-2e7b-4713-a4f5-d8c850d4c2da")
-	)
-	(wire
-		(pts
 			(xy 208.28 -37.465) (xy 219.71 -37.465)
 		)
 		(stroke
@@ -10045,16 +9891,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 -45.72) (xy 179.07 -42.545)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d561269-ae4d-44b2-b45e-bc7e60a96f4d")
-	)
-	(wire
-		(pts
 			(xy 177.8 86.36) (xy 177.8 88.9)
 		)
 		(stroke
@@ -10082,6 +9918,16 @@
 			(type default)
 		)
 		(uuid "6ddae395-d04b-4427-b06a-b91f515928dc")
+	)
+	(wire
+		(pts
+			(xy 88.9 -44.45) (xy 88.9 -40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ddebb4d-7186-4e20-a89e-1925dd086978")
 	)
 	(wire
 		(pts
@@ -11085,6 +10931,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 -45.72) (xy 179.07 -41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b878d6-7e59-4068-b216-162536ae7220")
+	)
+	(wire
+		(pts
 			(xy 43.18 182.88) (xy 46.99 182.88)
 		)
 		(stroke
@@ -11775,16 +11631,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 -44.45) (xy 88.9 -41.275)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc01e637-f605-44b3-9175-067723c549bb")
-	)
-	(wire
-		(pts
 			(xy 124.46 99.06) (xy 124.46 96.52)
 		)
 		(stroke
@@ -11875,16 +11721,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 -33.655) (xy 88.9 -32.385)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0adfbc5-bf90-4c43-967f-5bd0a873d6f0")
-	)
-	(wire
-		(pts
 			(xy 121.92 191.77) (xy 124.46 191.77)
 		)
 		(stroke
@@ -11922,6 +11758,16 @@
 			(type default)
 		)
 		(uuid "d383a452-53e1-4bfe-b53b-740b1c85b6f6")
+	)
+	(wire
+		(pts
+			(xy 179.07 -34.29) (xy 179.07 -33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4195eb3-4e97-41ba-b26a-97442191457c")
 	)
 	(wire
 		(pts
@@ -12222,16 +12068,6 @@
 			(type default)
 		)
 		(uuid "e980db98-511e-42ae-840c-da33900b4cc8")
-	)
-	(wire
-		(pts
-			(xy 179.07 -34.925) (xy 179.07 -33.655)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e982664e-a433-4af3-9da4-1f6f43c24095")
 	)
 	(wire
 		(pts
@@ -14398,6 +14234,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 88.9 -36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04e763e0-0653-457e-909a-e255edd4e29d")
+		(property "Reference" "D9"
+			(at 91.44 -38.1001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF6V0A-E3-08"
+			(at 91.44 -35.5601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KiCad:D_SMF"
+			(at 88.9 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85881/smf5v0atosmf58a.pdf"
+			(at 88.9 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMF6V0A-E3-08"
+			(at 88.9 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "605a5ccb-bd79-49c5-a425-33e1a1359cc7")
+		)
+		(pin "2"
+			(uuid "d9ea994f-5ff3-46af-ae84-11e051d7062d")
+		)
+		(instances
+			(project "bez_controller1v5"
+				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Male")
 		(at 173.99 -128.27 90)
 		(mirror x)
@@ -16168,7 +16074,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 -90.805 0)
+		(at 182.88 -90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16177,7 +16083,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b8685e9-7f27-4f2c-86bf-3aba8c2573d2")
 		(property "Reference" "#PWR074"
-			(at 182.88 -84.455 0)
+			(at 182.88 -83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16186,7 +16092,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 -85.725 0)
+			(at 182.88 -85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16195,7 +16101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 -90.805 0)
+			(at 182.88 -90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16204,7 +16110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 -90.805 0)
+			(at 182.88 -90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16213,7 +16119,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 -90.805 0)
+			(at 182.88 -90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16366,87 +16272,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZV55B5V1")
-		(at 88.9 -37.465 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e209ffd-2887-49a6-ac12-302e7415160a")
-		(property "Reference" "D9"
-			(at 91.44 -38.7351 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55B6V2"
-			(at 91.44 -36.1951 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 84.455 -37.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 88.9 -37.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.2V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 88.9 -37.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 88.9 -37.465 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4dd81123-915d-4949-ae82-e8262f2e8239")
-		)
-		(pin "1"
-			(uuid "89789822-7e21-4de7-8964-26882a269b3d")
-		)
-		(instances
-			(project "bez_controller1v5"
-				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 88.9 -32.385 0)
+		(at 88.9 -33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16455,7 +16282,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e87cd57-7412-41ae-a7b5-5104a4a19094")
 		(property "Reference" "#PWR073"
-			(at 88.9 -26.035 0)
+			(at 88.9 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16464,7 +16291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 -27.305 0)
+			(at 88.9 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16473,7 +16300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 -32.385 0)
+			(at 88.9 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16482,7 +16309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 -32.385 0)
+			(at 88.9 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16491,7 +16318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 -32.385 0)
+			(at 88.9 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17314,76 +17141,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZV55B5V1")
-		(at 179.07 -38.735 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a1f34c8-8b8c-48a3-8a10-f96d440d734c")
-		(property "Reference" "D8"
-			(at 181.61 -40.0051 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55B6V2"
-			(at 181.61 -37.4651 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 174.625 -38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 179.07 -38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.2V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 179.07 -38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bae7cf72-e93c-4b64-bca3-8e596f73b9fc")
-		)
-		(pin "1"
-			(uuid "603bc881-0ae5-47de-bf0b-d3dbfc9da406")
-		)
-		(instances
-			(project "bez_controller1v5"
-				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 40.64 92.71 0)
 		(unit 1)
@@ -17448,76 +17205,6 @@
 			(project "bez_controller1v5"
 				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZV55B5V1")
-		(at 274.32 -97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b76bcd3-ee55-4e8f-a135-9736330c4268")
-		(property "Reference" "D5"
-			(at 276.86 -99.0601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55B6V2"
-			(at 276.86 -96.5201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 269.875 -97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 274.32 -97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.2V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 274.32 -97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b89791a-c256-4c33-9029-4723a09074e1")
-		)
-		(pin "1"
-			(uuid "865cb141-39d4-4ec7-a467-6cc3f0c80f2d")
-		)
-		(instances
-			(project ""
-				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -18625,6 +18312,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 86.36 -96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55f2e408-52d2-4f43-afed-ce358757c99d")
+		(property "Reference" "D12"
+			(at 88.9 -97.7901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF6V0A-E3-08"
+			(at 88.9 -95.2501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KiCad:D_SMF"
+			(at 86.36 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85881/smf5v0atosmf58a.pdf"
+			(at 86.36 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMF6V0A-E3-08"
+			(at 86.36 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56e475ca-9f29-46f9-9d0c-b20cf86f62dc")
+		)
+		(pin "2"
+			(uuid "834198e1-dc24-4c62-a70d-b90436f119dd")
+		)
+		(instances
+			(project ""
+				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.21 -117.475 270)
 		(unit 1)
@@ -18818,6 +18575,76 @@
 			(project "bez_controller1v5"
 				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 182.88 -93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d9d0b05-fbac-4ddd-acf4-a2fad93a07b8")
+		(property "Reference" "D5"
+			(at 185.42 -95.2501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF6V0A-E3-08"
+			(at 185.42 -92.7101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KiCad:D_SMF"
+			(at 182.88 -93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85881/smf5v0atosmf58a.pdf"
+			(at 182.88 -93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMF6V0A-E3-08"
+			(at 182.88 -93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f2829b9-b75c-457f-a1b4-50412935e982")
+		)
+		(pin "2"
+			(uuid "9356bf55-7bf8-4dce-a5dd-50baaaa90164")
+		)
+		(instances
+			(project "bez_controller1v5"
+				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -20619,146 +20446,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZV55B5V1")
-		(at 86.36 -96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "801b2823-d201-4e03-bb4e-1661a1b25476")
-		(property "Reference" "D7"
-			(at 88.9 -97.7901 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55B6V2"
-			(at 88.9 -95.2501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 81.915 -96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 86.36 -96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.2V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 86.36 -96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21f3e844-b6ed-4d54-92dc-78ef74a242b1")
-		)
-		(pin "1"
-			(uuid "9b9ab15e-f512-4a1e-868f-93348fd284bf")
-		)
-		(instances
-			(project "bez_controller1v5"
-				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZV55B5V1")
-		(at 273.05 -39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "814db137-f4c9-4e78-9565-06ceae1963ad")
-		(property "Reference" "D6"
-			(at 275.59 -40.6401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55B6V2"
-			(at 275.59 -38.1001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 268.605 -39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 273.05 -39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.2V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 273.05 -39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dfe1adc1-3c5f-4522-b3cd-cd72f4c33f24")
-		)
-		(pin "1"
-			(uuid "6d18125b-e5ba-484f-97cd-69bc49ee1022")
-		)
-		(instances
-			(project "bez_controller1v5"
-				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 274.32 -112.395 0)
 		(unit 1)
@@ -21646,76 +21333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZV55B5V1")
-		(at 182.88 -95.885 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "927f1e71-4390-49f6-810e-94a1e2ec0b80")
-		(property "Reference" "D10"
-			(at 185.42 -97.1551 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55B6V2"
-			(at 185.42 -94.6151 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 178.435 -95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 182.88 -95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.2V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 182.88 -95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ff31ea01-7835-415a-951b-8c8eb4a51e73")
-		)
-		(pin "1"
-			(uuid "4b4ac496-0d5e-47d4-b93f-a3e573a10e02")
-		)
-		(instances
-			(project "bez_controller1v5"
-				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 273.05 -50.8 0)
 		(unit 1)
@@ -22263,6 +21880,76 @@
 			(project "bez_controller1v5"
 				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
 					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 179.07 -38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f626c25-667e-4954-a704-af66f0c72528")
+		(property "Reference" "D8"
+			(at 181.61 -39.3701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF6V0A-E3-08"
+			(at 181.61 -36.8301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KiCad:D_SMF"
+			(at 179.07 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85881/smf5v0atosmf58a.pdf"
+			(at 179.07 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMF6V0A-E3-08"
+			(at 179.07 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05ab0e57-e610-4bc0-8ad4-11f1a17d797e")
+		)
+		(pin "2"
+			(uuid "99a88363-ecbf-4d29-a9ec-f426dc9a4f65")
+		)
+		(instances
+			(project "bez_controller1v5"
+				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -25479,6 +25166,146 @@
 			(project "bez_controller1v5"
 				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 273.05 -39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea39834f-b87b-4fce-8c42-90dc46eda108")
+		(property "Reference" "D7"
+			(at 275.59 -40.6401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF6V0A-E3-08"
+			(at 275.59 -38.1001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KiCad:D_SMF"
+			(at 273.05 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85881/smf5v0atosmf58a.pdf"
+			(at 273.05 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMF6V0A-E3-08"
+			(at 273.05 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e02f9a5-7ebe-4b23-b26e-026158cc63b8")
+		)
+		(pin "2"
+			(uuid "81f98b5f-1ab9-4aca-b9e3-dcff01d7ee5c")
+		)
+		(instances
+			(project "bez_controller1v5"
+				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 274.32 -97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebd6002e-80df-4e32-bdb4-c4e89fb5ba9f")
+		(property "Reference" "D6"
+			(at 276.86 -99.0601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF6V0A-E3-08"
+			(at 276.86 -96.5201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KiCad:D_SMF"
+			(at 274.32 -97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85881/smf5v0atosmf58a.pdf"
+			(at 274.32 -97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMF6V0A-E3-08"
+			(at 274.32 -97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1a91af4-781c-469c-af83-2dfa29b5c881")
+		)
+		(pin "2"
+			(uuid "b7bb0846-3895-4809-a8b9-fe930080d3dc")
+		)
+		(instances
+			(project "bez_controller1v5"
+				(path "/f1f9e721-9072-4626-979b-e86715e2d8d4"
+					(reference "D6")
 					(unit 1)
 				)
 			)
