@@ -14648,7 +14648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad:D_SMF"
+		(property "Footprint" "Diode_SMD:D_SMF"
 			(at 88.9 -36.83 0)
 			(effects
 				(font
@@ -18793,7 +18793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad:D_SMF"
+		(property "Footprint" "Diode_SMD:D_SMF"
 			(at 86.36 -96.52 0)
 			(effects
 				(font
@@ -19062,7 +19062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad:D_SMF"
+		(property "Footprint" "Diode_SMD:D_SMF"
 			(at 182.88 -93.98 0)
 			(effects
 				(font
@@ -22367,7 +22367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad:D_SMF"
+		(property "Footprint" "Diode_SMD:D_SMF"
 			(at 179.07 -38.1 0)
 			(effects
 				(font
@@ -25653,7 +25653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad:D_SMF"
+		(property "Footprint" "Diode_SMD:D_SMF"
 			(at 273.05 -39.37 0)
 			(effects
 				(font
@@ -25723,7 +25723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad:D_SMF"
+		(property "Footprint" "Diode_SMD:D_SMF"
 			(at 274.32 -97.79 0)
 			(effects
 				(font
