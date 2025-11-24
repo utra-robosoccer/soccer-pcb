@@ -3,4 +3,5 @@
   (lib (name "bmi088")(type "KiCad")(uri "${KIPRJMOD}/lib/BMI088/BMI088.kicad_sym")(options "")(descr ""))
   (lib (name "mcp2551")(type "KiCad")(uri "${KIPRJMOD}/lib/MCP2551_I_SN/MCP2551-I_SN.kicad_sym")(options "")(descr ""))
   (lib (name "pptc041LGBN-RC")(type "KiCad")(uri "${KIPRJMOD}/lib/PPTC041LGBN_RC/2025-10-06_19-45-56.kicad_sym")(options "")(descr ""))
+  (lib (name "ltc7000emse")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/LTC7000EMSE-1_TRPBF.kicad_sym")(options "")(descr ""))
 )
