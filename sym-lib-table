@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "foot-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/foot-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "lmr51625")(type "KiCad")(uri "${KIPRJMOD}/lib/lmr51625.kicad_sym")(options "")(descr ""))
+  (lib (name "lmr51603")(type "KiCad")(uri "${KIPRJMOD}/lib/lmr51603.kicad_sym")(options "")(descr ""))
+  (lib (name "bmi088")(type "KiCad")(uri "${KIPRJMOD}/lib/bmi088.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lmr51625")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints.pretty")(options "")(descr ""))
+  (lib (name "lmr51603")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints.pretty")(options "")(descr ""))
+  (lib (name "aspi-0428s")(type "KiCad")(uri "${KIPRJMOD}/lib/aspi-0428")(options "")(descr ""))
+  (lib (name "bmi088")(type "KiCad")(uri "${KIPRJMOD}/lib/bmi088.pretty")(options "")(descr ""))
+)
