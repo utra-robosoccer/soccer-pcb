@@ -5,4 +5,5 @@
   (lib (name "usb")(type "KiCad")(uri "${KIPRJMOD}/lib/usb")(options "")(descr ""))
   (lib (name "ltc7000emse")(type "KiCad")(uri "${KIPRJMOD}/lib/ltc7000emse")(options "")(descr ""))
   (lib (name "xt302+2")(type "KiCad")(uri "${KIPRJMOD}/lib/xt302+2")(options "")(descr ""))
+  (lib (name "wslp")(type "KiCad")(uri "${KIPRJMOD}/lib/_wslp3921_3dmodel")(options "")(descr ""))
 )
